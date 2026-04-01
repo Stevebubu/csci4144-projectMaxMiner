@@ -60,11 +60,17 @@ public class MaxMiner {
 
         allItems.sort(Comparator.comparingInt(supportCache::get));
 
-        maxMiner(new HashSet<>(), allItems);
+        //Track runtime
+        long startTime = System.nanoTime();
 
+        maxMiner(new HashSet<>(), allItems);
+        
         removeNonMaximal();
 
-        writeRules(minSupFraction, min_conf);
+        long endTime = System.nanoTime();
+        double runtimeSeconds = (endTime - startTime) / 1e9;
+
+        writeRules(minSupFraction, min_conf, runtimeSeconds);
 
         System.out.println("Done. Rules written to Rules.txt");
     }
@@ -85,13 +91,12 @@ public class MaxMiner {
         return count;
     }
 
-    // ---------------- MAX-MINER ----------------
-    // Implements Bayardo (1998) Figures 2–4.
+    // MAX-MINER Implementation based on Bayardo (1998) Figures 2–4
     // prefix = h(g)  (the head of the current candidate group)
     // tail   = t(g)  (ordered list of remaining items that may extend the head)
     public static void maxMiner(Set<String> prefix, List<String> tail) {
 
-        // --- Superset-frequency pruning (Figure 2 / Figure 4) ---
+        // Superset-frequency pruning (Figure 2 / Figure 4)
         // If h ∪ t is frequent, every sub-node would produce a non-maximal itemset,
         // so record h ∪ t as a maximal candidate and stop expanding.
         Set<String> combined = new HashSet<>(prefix);
@@ -102,7 +107,7 @@ public class MaxMiner {
             return;
         }
 
-        // --- Subset-infrequency pruning + tail building (Figure 4: GEN-SUB-NODES) ---
+        // Subset-infrequency pruning + tail building (Figure 4: GEN-SUB-NODES)
         // Prune tail items whose addition to the head makes the head infrequent,
         // then generate one sub-node per remaining tail item.
         for (int i = 0; i < tail.size(); i++) {
@@ -131,13 +136,13 @@ public class MaxMiner {
         }
 
         // If prefix itself is frequent and nothing extended it, it may be maximal.
-        // Record it here; the removeNonMaximal pass will clean up duplicates.
+        // Record it here, the removeNonMaximal pass will clean up duplicates.
         if (!prefix.isEmpty() && getSupport(prefix) >= min_sup_count) {
             maximalItemsets.putIfAbsent(new HashSet<>(prefix), getSupport(prefix));
         }
     }
 
-    // ---------------- REMOVE NON-MAXIMAL ----------------
+    // REMOVE NON-MAXIMAL
     // After the search, ensure every stored itemset has no proper frequent superset
     // also stored (per the "remove from F" step in Figure 2).
     public static void removeNonMaximal() {
@@ -178,9 +183,9 @@ public class MaxMiner {
         return subsets;
     }
 
-    public static void writeRules(double minSupFraction, double minConf) throws IOException {
+    public static void writeRules(double minSupFraction, double minConf, double runtimeSeconds) throws IOException {
 
-        PrintWriter pw = new PrintWriter(new FileWriter("Rules.txt"));
+        PrintWriter pw = new PrintWriter(new FileWriter("MaxMiner_Rules.txt"));
 
         int totalTransactions = transactions.size();
         int ruleNum = 1;
@@ -192,8 +197,11 @@ public class MaxMiner {
         pw.println();
         pw.println("2. Maximal Frequent Itemsets Found: " + maximalItemsets.size());
         pw.println();
+        pw.println("Runtime: " + runtimeSeconds + " seconds");
+        pw.println();
         pw.println("3. Rules:");
         pw.println();
+        
 
         for (Set<String> itemset : maximalItemsets.keySet()) {
 

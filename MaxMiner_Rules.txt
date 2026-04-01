@@ -1,0 +1,174 @@
+1. User Input:
+
+Support=0.01
+Confidence=0.3
+
+2. Maximal Frequent Itemsets Found: 200
+
+Runtime: 1.966631 seconds
+
+3. Rules:
+
+Rule#1: {cereals} => {mineral water}
+(Support=0.01, Confidence=0.4)
+
+Rule#2: {red wine} => {spaghetti}
+(Support=0.01, Confidence=0.36)
+
+Rule#3: {red wine} => {mineral water}
+(Support=0.01, Confidence=0.39)
+
+Rule#4: {avocado} => {mineral water}
+(Support=0.01, Confidence=0.35)
+
+Rule#5: {salmon} => {spaghetti}
+(Support=0.01, Confidence=0.32)
+
+Rule#6: {salmon} => {mineral water}
+(Support=0.02, Confidence=0.4)
+
+Rule#7: {fresh bread} => {mineral water}
+(Support=0.01, Confidence=0.31)
+
+Rule#8: {honey} => {mineral water}
+(Support=0.02, Confidence=0.32)
+
+Rule#9: {herb & pepper} => {ground beef}
+(Support=0.02, Confidence=0.32)
+
+Rule#10: {herb & pepper} => {spaghetti}
+(Support=0.02, Confidence=0.33)
+
+Rule#11: {herb & pepper} => {mineral water}
+(Support=0.02, Confidence=0.35)
+
+Rule#12: {soup} => {milk}
+(Support=0.02, Confidence=0.3)
+
+Rule#13: {soup} => {mineral water}
+(Support=0.02, Confidence=0.46)
+
+Rule#14: {cooking oil} => {spaghetti}
+(Support=0.02, Confidence=0.31)
+
+Rule#15: {cooking oil} => {mineral water}
+(Support=0.02, Confidence=0.39)
+
+Rule#16: {grated cheese} => {spaghetti}
+(Support=0.02, Confidence=0.32)
+
+Rule#17: {grated cheese} => {mineral water}
+(Support=0.02, Confidence=0.33)
+
+Rule#18: {whole wheat rice} => {mineral water}
+(Support=0.02, Confidence=0.34)
+
+Rule#19: {chicken} => {mineral water}
+(Support=0.02, Confidence=0.38)
+
+Rule#20: {turkey} => {eggs}
+(Support=0.02, Confidence=0.31)
+
+Rule#21: {turkey} => {mineral water}
+(Support=0.02, Confidence=0.31)
+
+Rule#22: {frozen smoothie} => {mineral water}
+(Support=0.02, Confidence=0.32)
+
+Rule#23: {spaghetti, olive oil} => {mineral water}
+(Support=0.01, Confidence=0.45)
+
+Rule#24: {mineral water, olive oil} => {spaghetti}
+(Support=0.01, Confidence=0.37)
+
+Rule#25: {tomatoes} => {spaghetti}
+(Support=0.02, Confidence=0.31)
+
+Rule#26: {tomatoes} => {mineral water}
+(Support=0.02, Confidence=0.36)
+
+Rule#27: {shrimp} => {mineral water}
+(Support=0.02, Confidence=0.33)
+
+Rule#28: {low fat yogurt} => {mineral water}
+(Support=0.02, Confidence=0.31)
+
+Rule#29: {cake} => {mineral water}
+(Support=0.03, Confidence=0.34)
+
+Rule#30: {burgers} => {eggs}
+(Support=0.03, Confidence=0.33)
+
+Rule#31: {spaghetti, pancakes} => {mineral water}
+(Support=0.01, Confidence=0.46)
+
+Rule#32: {mineral water, pancakes} => {spaghetti}
+(Support=0.01, Confidence=0.34)
+
+Rule#33: {frozen vegetables, mineral water} => {milk}
+(Support=0.01, Confidence=0.31)
+
+Rule#34: {frozen vegetables, milk} => {mineral water}
+(Support=0.01, Confidence=0.47)
+
+Rule#35: {spaghetti, frozen vegetables} => {mineral water}
+(Support=0.01, Confidence=0.43)
+
+Rule#36: {frozen vegetables, mineral water} => {spaghetti}
+(Support=0.01, Confidence=0.34)
+
+Rule#37: {milk, ground beef} => {mineral water}
+(Support=0.01, Confidence=0.5)
+
+Rule#38: {ground beef, chocolate} => {mineral water}
+(Support=0.01, Confidence=0.47)
+
+Rule#39: {spaghetti, ground beef} => {mineral water}
+(Support=0.02, Confidence=0.44)
+
+Rule#40: {mineral water, ground beef} => {spaghetti}
+(Support=0.02, Confidence=0.42)
+
+Rule#41: {eggs, ground beef} => {mineral water}
+(Support=0.01, Confidence=0.51)
+
+Rule#42: {spaghetti, milk} => {chocolate}
+(Support=0.01, Confidence=0.31)
+
+Rule#43: {milk, chocolate} => {spaghetti}
+(Support=0.01, Confidence=0.34)
+
+Rule#44: {milk, chocolate} => {mineral water}
+(Support=0.01, Confidence=0.44)
+
+Rule#45: {spaghetti, milk} => {mineral water}
+(Support=0.02, Confidence=0.44)
+
+Rule#46: {mineral water, milk} => {spaghetti}
+(Support=0.02, Confidence=0.33)
+
+Rule#47: {eggs, milk} => {mineral water}
+(Support=0.01, Confidence=0.42)
+
+Rule#48: {eggs, chocolate} => {spaghetti}
+(Support=0.01, Confidence=0.32)
+
+Rule#49: {spaghetti, chocolate} => {mineral water}
+(Support=0.02, Confidence=0.4)
+
+Rule#50: {mineral water, chocolate} => {spaghetti}
+(Support=0.02, Confidence=0.3)
+
+Rule#51: {eggs, chocolate} => {mineral water}
+(Support=0.01, Confidence=0.41)
+
+Rule#52: {spaghetti, french fries} => {mineral water}
+(Support=0.01, Confidence=0.37)
+
+Rule#53: {mineral water, french fries} => {spaghetti}
+(Support=0.01, Confidence=0.3)
+
+Rule#54: {eggs, spaghetti} => {mineral water}
+(Support=0.01, Confidence=0.39)
+
+Total rules generated: 54
