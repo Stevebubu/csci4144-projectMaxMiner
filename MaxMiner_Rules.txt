@@ -1,174 +1,3149 @@
 1. User Input:
 
-Support=0.01
+Support=0.002
 Confidence=0.3
 
-2. Maximal Frequent Itemsets Found: 200
+2. Maximal Frequent Itemsets Found: 1652
 
-Runtime: 1.966631 seconds
+Runtime: 10.700683 seconds
+Support computations: 24441
+Search nodes explored: 2162
 
 3. Rules:
 
-Rule#1: {cereals} => {mineral water}
-(Support=0.01, Confidence=0.4)
+Rule#1: {asparagus} => {mineral water}
+(Support=0.0, Confidence=0.44)
 
-Rule#2: {red wine} => {spaghetti}
-(Support=0.01, Confidence=0.36)
+Rule#2: {burger sauce} => {spaghetti}
+(Support=0.0, Confidence=0.41)
 
-Rule#3: {red wine} => {mineral water}
-(Support=0.01, Confidence=0.39)
+Rule#3: {burger sauce} => {mineral water}
+(Support=0.0, Confidence=0.41)
 
-Rule#4: {avocado} => {mineral water}
+Rule#4: {mayonnaise} => {mineral water}
+(Support=0.0, Confidence=0.48)
+
+Rule#5: {chili} => {spaghetti}
+(Support=0.0, Confidence=0.39)
+
+Rule#6: {chili} => {mineral water}
+(Support=0.0, Confidence=0.35)
+
+Rule#7: {gluten free bar} => {pancakes}
+(Support=0.0, Confidence=0.31)
+
+Rule#8: {gluten free bar} => {mineral water}
+(Support=0.0, Confidence=0.31)
+
+Rule#9: {spinach} => {french fries}
+(Support=0.0, Confidence=0.3)
+
+Rule#10: {spinach} => {mineral water}
+(Support=0.0, Confidence=0.38)
+
+Rule#11: {strong cheese} => {spaghetti}
+(Support=0.0, Confidence=0.48)
+
+Rule#12: {strong cheese} => {mineral water}
+(Support=0.0, Confidence=0.41)
+
+Rule#13: {shallot} => {french fries}
+(Support=0.0, Confidence=0.34)
+
+Rule#14: {clothes accessories} => {mineral water}
+(Support=0.0, Confidence=0.32)
+
+Rule#15: {bacon} => {spaghetti}
+(Support=0.0, Confidence=0.37)
+
+Rule#16: {bacon} => {eggs}
+(Support=0.0, Confidence=0.34)
+
+Rule#17: {bacon} => {mineral water}
+(Support=0.0, Confidence=0.35)
+
+Rule#18: {green beans} => {french fries}
+(Support=0.0, Confidence=0.31)
+
+Rule#19: {green beans} => {spaghetti}
+(Support=0.0, Confidence=0.4)
+
+Rule#20: {bug spray} => {spaghetti}
+(Support=0.0, Confidence=0.31)
+
+Rule#21: {bug spray} => {mineral water}
+(Support=0.0, Confidence=0.31)
+
+Rule#22: {flax seed} => {green tea}
+(Support=0.0, Confidence=0.34)
+
+Rule#23: {green grapes} => {mineral water}
+(Support=0.0, Confidence=0.35)
+
+Rule#24: {blueberries} => {spaghetti}
+(Support=0.0, Confidence=0.38)
+
+Rule#25: {blueberries} => {mineral water}
+(Support=0.0, Confidence=0.39)
+
+Rule#26: {whole weat flour} => {mineral water}
+(Support=0.0, Confidence=0.37)
+
+Rule#27: {zucchini} => {spaghetti}
+(Support=0.0, Confidence=0.32)
+
+Rule#28: {zucchini} => {mineral water}
+(Support=0.0, Confidence=0.37)
+
+Rule#29: {spaghetti, nonfat milk} => {mineral water}
+(Support=0.0, Confidence=0.72)
+
+Rule#30: {mineral water, nonfat milk} => {spaghetti}
+(Support=0.0, Confidence=0.47)
+
+Rule#31: {cider} => {milk}
+(Support=0.0, Confidence=0.32)
+
+Rule#32: {cider} => {eggs}
+(Support=0.0, Confidence=0.41)
+
+Rule#33: {barbecue sauce} => {eggs}
+(Support=0.0, Confidence=0.33)
+
+Rule#34: {barbecue sauce} => {mineral water}
+(Support=0.0, Confidence=0.36)
+
+Rule#35: {magazines} => {mineral water}
+(Support=0.0, Confidence=0.34)
+
+Rule#36: {body spray} => {french fries}
+(Support=0.0, Confidence=0.37)
+
+Rule#37: {body spray} => {mineral water}
+(Support=0.0, Confidence=0.36)
+
+Rule#38: {yams} => {mineral water}
+(Support=0.0, Confidence=0.31)
+
+Rule#39: {spaghetti, extra dark chocolate} => {mineral water}
+(Support=0.0, Confidence=0.55)
+
+Rule#40: {mineral water, extra dark chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.4)
+
+Rule#41: {gums} => {mineral water}
+(Support=0.0, Confidence=0.37)
+
+Rule#42: {fromage blanc} => {mineral water}
+(Support=0.0, Confidence=0.33)
+
+Rule#43: {spaghetti, tomato sauce} => {ground beef}
+(Support=0.0, Confidence=0.49)
+
+Rule#44: {tomato sauce, ground beef} => {spaghetti}
+(Support=0.0, Confidence=0.57)
+
+Rule#45: {tomato sauce, mineral water} => {ground beef}
+(Support=0.0, Confidence=0.47)
+
+Rule#46: {tomato sauce, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.5)
+
+Rule#47: {spaghetti, tomato sauce} => {chocolate}
+(Support=0.0, Confidence=0.45)
+
+Rule#48: {tomato sauce, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.55)
+
+Rule#49: {spaghetti, tomato sauce} => {mineral water}
+(Support=0.0, Confidence=0.4)
+
+Rule#50: {tomato sauce, mineral water} => {spaghetti}
+(Support=0.0, Confidence=0.44)
+
+Rule#51: {mineral water, black tea} => {milk}
+(Support=0.0, Confidence=0.43)
+
+Rule#52: {milk, black tea} => {mineral water}
+(Support=0.0, Confidence=0.53)
+
+Rule#53: {black tea} => {spaghetti}
+(Support=0.0, Confidence=0.32)
+
+Rule#54: {black tea} => {eggs}
+(Support=0.0, Confidence=0.35)
+
+Rule#55: {carrots} => {spaghetti}
+(Support=0.0, Confidence=0.3)
+
+Rule#56: {carrots} => {mineral water}
 (Support=0.01, Confidence=0.35)
 
-Rule#5: {salmon} => {spaghetti}
+Rule#57: {chicken, light cream} => {mineral water}
+(Support=0.0, Confidence=0.53)
+
+Rule#58: {mineral water, light cream} => {chicken}
+(Support=0.0, Confidence=0.33)
+
+Rule#59: {light cream, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.64)
+
+Rule#60: {spaghetti, light cream} => {milk}
+(Support=0.0, Confidence=0.43)
+
+Rule#61: {milk, light cream} => {spaghetti}
+(Support=0.0, Confidence=0.57)
+
+Rule#62: {milk, light cream} => {mineral water}
+(Support=0.0, Confidence=0.53)
+
+Rule#63: {spaghetti, light cream} => {mineral water}
+(Support=0.0, Confidence=0.6)
+
+Rule#64: {mineral water, light cream} => {spaghetti}
+(Support=0.0, Confidence=0.44)
+
+Rule#65: {pasta, escalope} => {mushroom cream sauce}
+(Support=0.0, Confidence=0.43)
+
+Rule#66: {pasta, mushroom cream sauce} => {escalope}
+(Support=0.0, Confidence=0.95)
+
+Rule#67: {escalope, mushroom cream sauce} => {pasta}
+(Support=0.0, Confidence=0.44)
+
+Rule#68: {pasta} => {shrimp}
 (Support=0.01, Confidence=0.32)
 
-Rule#6: {salmon} => {mineral water}
-(Support=0.02, Confidence=0.4)
-
-Rule#7: {fresh bread} => {mineral water}
-(Support=0.01, Confidence=0.31)
-
-Rule#8: {honey} => {mineral water}
-(Support=0.02, Confidence=0.32)
-
-Rule#9: {herb & pepper} => {ground beef}
-(Support=0.02, Confidence=0.32)
-
-Rule#10: {herb & pepper} => {spaghetti}
-(Support=0.02, Confidence=0.33)
-
-Rule#11: {herb & pepper} => {mineral water}
-(Support=0.02, Confidence=0.35)
-
-Rule#12: {soup} => {milk}
-(Support=0.02, Confidence=0.3)
-
-Rule#13: {soup} => {mineral water}
-(Support=0.02, Confidence=0.46)
-
-Rule#14: {cooking oil} => {spaghetti}
-(Support=0.02, Confidence=0.31)
-
-Rule#15: {cooking oil} => {mineral water}
-(Support=0.02, Confidence=0.39)
-
-Rule#16: {grated cheese} => {spaghetti}
-(Support=0.02, Confidence=0.32)
-
-Rule#17: {grated cheese} => {mineral water}
-(Support=0.02, Confidence=0.33)
-
-Rule#18: {whole wheat rice} => {mineral water}
-(Support=0.02, Confidence=0.34)
-
-Rule#19: {chicken} => {mineral water}
-(Support=0.02, Confidence=0.38)
-
-Rule#20: {turkey} => {eggs}
-(Support=0.02, Confidence=0.31)
-
-Rule#21: {turkey} => {mineral water}
-(Support=0.02, Confidence=0.31)
-
-Rule#22: {frozen smoothie} => {mineral water}
-(Support=0.02, Confidence=0.32)
-
-Rule#23: {spaghetti, olive oil} => {mineral water}
-(Support=0.01, Confidence=0.45)
-
-Rule#24: {mineral water, olive oil} => {spaghetti}
-(Support=0.01, Confidence=0.37)
-
-Rule#25: {tomatoes} => {spaghetti}
-(Support=0.02, Confidence=0.31)
-
-Rule#26: {tomatoes} => {mineral water}
-(Support=0.02, Confidence=0.36)
-
-Rule#27: {shrimp} => {mineral water}
-(Support=0.02, Confidence=0.33)
-
-Rule#28: {low fat yogurt} => {mineral water}
-(Support=0.02, Confidence=0.31)
-
-Rule#29: {cake} => {mineral water}
-(Support=0.03, Confidence=0.34)
-
-Rule#30: {burgers} => {eggs}
-(Support=0.03, Confidence=0.33)
-
-Rule#31: {spaghetti, pancakes} => {mineral water}
-(Support=0.01, Confidence=0.46)
-
-Rule#32: {mineral water, pancakes} => {spaghetti}
+Rule#69: {mint} => {mineral water}
 (Support=0.01, Confidence=0.34)
 
-Rule#33: {frozen vegetables, mineral water} => {milk}
-(Support=0.01, Confidence=0.31)
+Rule#70: {protein bar, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.63)
 
-Rule#34: {frozen vegetables, milk} => {mineral water}
-(Support=0.01, Confidence=0.47)
+Rule#71: {protein bar, spaghetti} => {mineral water}
+(Support=0.0, Confidence=0.45)
 
-Rule#35: {spaghetti, frozen vegetables} => {mineral water}
+Rule#72: {protein bar, eggs} => {mineral water}
+(Support=0.0, Confidence=0.64)
+
+Rule#73: {mineral water, rice} => {ground beef}
+(Support=0.0, Confidence=0.31)
+
+Rule#74: {rice, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.55)
+
+Rule#75: {mineral water, rice} => {chocolate}
+(Support=0.0, Confidence=0.33)
+
+Rule#76: {rice, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.48)
+
+Rule#77: {spaghetti, rice} => {mineral water}
+(Support=0.0, Confidence=0.53)
+
+Rule#78: {mineral water, rice} => {spaghetti}
+(Support=0.0, Confidence=0.34)
+
+Rule#79: {tomatoes, parmesan cheese} => {frozen vegetables}
+(Support=0.0, Confidence=0.67)
+
+Rule#80: {frozen vegetables, parmesan cheese} => {tomatoes}
+(Support=0.0, Confidence=0.39)
+
+Rule#81: {spaghetti, parmesan cheese} => {frozen vegetables}
+(Support=0.0, Confidence=0.37)
+
+Rule#82: {frozen vegetables, parmesan cheese} => {spaghetti}
+(Support=0.0, Confidence=0.46)
+
+Rule#83: {spaghetti, parmesan cheese} => {milk}
+(Support=0.0, Confidence=0.31)
+
+Rule#84: {milk, parmesan cheese} => {spaghetti}
+(Support=0.0, Confidence=0.55)
+
+Rule#85: {eggs, almonds} => {burgers}
+(Support=0.0, Confidence=0.35)
+
+Rule#86: {almonds, burgers} => {eggs}
+(Support=0.0, Confidence=0.44)
+
+Rule#87: {spaghetti, almonds} => {ground beef}
+(Support=0.0, Confidence=0.36)
+
+Rule#88: {almonds, ground beef} => {spaghetti}
+(Support=0.0, Confidence=0.55)
+
+Rule#89: {milk, almonds} => {chocolate}
+(Support=0.0, Confidence=0.41)
+
+Rule#90: {almonds, chocolate} => {milk}
+(Support=0.0, Confidence=0.36)
+
+Rule#91: {green tea, almonds} => {mineral water}
+(Support=0.0, Confidence=0.42)
+
+Rule#92: {spaghetti, almonds} => {chocolate}
+(Support=0.0, Confidence=0.4)
+
+Rule#93: {almonds, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.4)
+
+Rule#94: {eggs, almonds} => {chocolate}
+(Support=0.0, Confidence=0.33)
+
+Rule#95: {almonds, chocolate} => {eggs}
+(Support=0.0, Confidence=0.36)
+
+Rule#96: {almonds, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.36)
+
+Rule#97: {eggs, almonds} => {french fries}
+(Support=0.0, Confidence=0.35)
+
+Rule#98: {almonds, french fries} => {eggs}
+(Support=0.0, Confidence=0.52)
+
+Rule#99: {spaghetti, almonds} => {mineral water}
+(Support=0.0, Confidence=0.4)
+
+Rule#100: {mineral water, almonds} => {spaghetti}
+(Support=0.0, Confidence=0.32)
+
+Rule#101: {eggs, almonds} => {mineral water}
+(Support=0.0, Confidence=0.37)
+
+Rule#102: {mineral water, almonds} => {eggs}
+(Support=0.0, Confidence=0.32)
+
+Rule#103: {tomatoes, meatballs} => {spaghetti}
+(Support=0.0, Confidence=0.55)
+
+Rule#104: {meatballs, spaghetti} => {tomatoes}
+(Support=0.0, Confidence=0.33)
+
+Rule#105: {meatballs, spaghetti} => {milk}
+(Support=0.0, Confidence=0.4)
+
+Rule#106: {meatballs, milk} => {spaghetti}
+(Support=0.0, Confidence=0.46)
+
+Rule#107: {meatballs, mineral water} => {milk}
+(Support=0.0, Confidence=0.31)
+
+Rule#108: {meatballs, milk} => {mineral water}
+(Support=0.0, Confidence=0.44)
+
+Rule#109: {meatballs, spaghetti} => {mineral water}
+(Support=0.0, Confidence=0.35)
+
+Rule#110: {fresh tuna, olive oil} => {mineral water}
+(Support=0.0, Confidence=0.57)
+
+Rule#111: {spaghetti, fresh tuna} => {pancakes}
+(Support=0.0, Confidence=0.33)
+
+Rule#112: {fresh tuna, pancakes} => {spaghetti}
+(Support=0.0, Confidence=0.45)
+
+Rule#113: {fresh tuna, milk} => {mineral water}
+(Support=0.0, Confidence=0.53)
+
+Rule#114: {spaghetti, fresh tuna} => {mineral water}
+(Support=0.0, Confidence=0.43)
+
+Rule#115: {mineral water, fresh tuna} => {spaghetti}
+(Support=0.0, Confidence=0.33)
+
+Rule#116: {eggs, fresh tuna} => {mineral water}
+(Support=0.0, Confidence=0.48)
+
+Rule#117: {mineral water, fresh tuna} => {eggs}
+(Support=0.0, Confidence=0.32)
+
+Rule#118: {spaghetti, french wine} => {burgers}
+(Support=0.0, Confidence=0.31)
+
+Rule#119: {burgers, french wine} => {spaghetti}
+(Support=0.0, Confidence=0.58)
+
+Rule#120: {spaghetti, french wine} => {ground beef}
+(Support=0.0, Confidence=0.31)
+
+Rule#121: {ground beef, french wine} => {spaghetti}
+(Support=0.0, Confidence=0.62)
+
+Rule#122: {ground beef, french wine} => {mineral water}
+(Support=0.0, Confidence=0.62)
+
+Rule#123: {mineral water, french wine} => {milk}
+(Support=0.0, Confidence=0.34)
+
+Rule#124: {milk, french wine} => {mineral water}
+(Support=0.0, Confidence=0.57)
+
+Rule#125: {french wine, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.41)
+
+Rule#126: {french wine, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.44)
+
+Rule#127: {eggs, french wine} => {spaghetti}
+(Support=0.0, Confidence=0.49)
+
+Rule#128: {spaghetti, french wine} => {eggs}
+(Support=0.0, Confidence=0.38)
+
+Rule#129: {spaghetti, french wine} => {mineral water}
+(Support=0.0, Confidence=0.43)
+
+Rule#130: {mineral water, french wine} => {spaghetti}
+(Support=0.0, Confidence=0.4)
+
+Rule#131: {eggs, french wine} => {mineral water}
+(Support=0.0, Confidence=0.38)
+
+Rule#132: {oil, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.55)
+
+Rule#133: {oil, spaghetti} => {mineral water}
+(Support=0.0, Confidence=0.42)
+
+Rule#134: {oil, mineral water} => {spaghetti}
+(Support=0.0, Confidence=0.33)
+
+Rule#135: {vegetables mix, frozen vegetables} => {mineral water}
+(Support=0.0, Confidence=0.55)
+
+Rule#136: {vegetables mix, mineral water} => {frozen vegetables}
+(Support=0.0, Confidence=0.31)
+
+Rule#137: {vegetables mix, milk} => {mineral water}
+(Support=0.0, Confidence=0.52)
+
+Rule#138: {eggs, vegetables mix} => {mineral water}
+(Support=0.0, Confidence=0.44)
+
+Rule#139: {frozen vegetables, cereals} => {mineral water}
+(Support=0.0, Confidence=0.5)
+
+Rule#140: {spaghetti, cereals} => {ground beef}
+(Support=0.0, Confidence=0.46)
+
+Rule#141: {cereals, ground beef} => {spaghetti}
+(Support=0.0, Confidence=0.68)
+
+Rule#142: {cereals, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.5)
+
+Rule#143: {spaghetti, cereals} => {milk}
+(Support=0.0, Confidence=0.4)
+
+Rule#144: {milk, cereals} => {spaghetti}
+(Support=0.0, Confidence=0.38)
+
+Rule#145: {mineral water, cereals} => {milk}
+(Support=0.0, Confidence=0.35)
+
+Rule#146: {milk, cereals} => {mineral water}
+(Support=0.0, Confidence=0.51)
+
+Rule#147: {cereals, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.48)
+
+Rule#148: {cereals, french fries} => {mineral water}
+(Support=0.0, Confidence=0.44)
+
+Rule#149: {spaghetti, cereals} => {mineral water}
+(Support=0.0, Confidence=0.52)
+
+Rule#150: {mineral water, cereals} => {spaghetti}
+(Support=0.0, Confidence=0.34)
+
+Rule#151: {ham, burgers} => {chocolate}
+(Support=0.0, Confidence=0.38)
+
+Rule#152: {ham, chocolate} => {burgers}
+(Support=0.0, Confidence=0.34)
+
+Rule#153: {ham, burgers} => {spaghetti}
+(Support=0.0, Confidence=0.38)
+
+Rule#154: {ham, pancakes} => {mineral water}
+(Support=0.0, Confidence=0.47)
+
+Rule#155: {ham, ground beef} => {spaghetti}
+(Support=0.0, Confidence=0.46)
+
+Rule#156: {ham, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.54)
+
+Rule#157: {spaghetti, ham} => {chocolate}
+(Support=0.0, Confidence=0.3)
+
+Rule#158: {ham, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.45)
+
+Rule#159: {ham, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.43)
+
+Rule#160: {ham, french fries} => {spaghetti}
+(Support=0.0, Confidence=0.38)
+
+Rule#161: {eggs, ham} => {french fries}
+(Support=0.0, Confidence=0.43)
+
+Rule#162: {ham, french fries} => {eggs}
+(Support=0.0, Confidence=0.48)
+
+Rule#163: {eggs, ham} => {spaghetti}
+(Support=0.0, Confidence=0.43)
+
+Rule#164: {spaghetti, ham} => {mineral water}
+(Support=0.0, Confidence=0.41)
+
+Rule#165: {ham, mineral water} => {spaghetti}
+(Support=0.0, Confidence=0.41)
+
+Rule#166: {eggs, ham} => {mineral water}
+(Support=0.0, Confidence=0.34)
+
+Rule#167: {pepper, pancakes} => {spaghetti}
+(Support=0.0, Confidence=0.44)
+
+Rule#168: {pepper, spaghetti} => {ground beef}
+(Support=0.0, Confidence=0.34)
+
+Rule#169: {pepper, ground beef} => {spaghetti}
+(Support=0.0, Confidence=0.51)
+
+Rule#170: {pepper, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.37)
+
+Rule#171: {pepper, milk} => {mineral water}
+(Support=0.0, Confidence=0.42)
+
+Rule#172: {pepper, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.35)
+
+Rule#173: {pepper, mineral water} => {chocolate}
+(Support=0.0, Confidence=0.32)
+
+Rule#174: {pepper, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.42)
+
+Rule#175: {pepper, mineral water} => {spaghetti}
+(Support=0.0, Confidence=0.35)
+
+Rule#176: {energy bar, mineral water} => {milk}
+(Support=0.0, Confidence=0.31)
+
+Rule#177: {energy bar, milk} => {mineral water}
+(Support=0.0, Confidence=0.39)
+
+Rule#178: {red wine, turkey} => {mineral water}
+(Support=0.0, Confidence=0.73)
+
+Rule#179: {red wine, pancakes} => {mineral water}
+(Support=0.0, Confidence=0.65)
+
+Rule#180: {red wine, ground beef} => {spaghetti}
+(Support=0.0, Confidence=0.53)
+
+Rule#181: {red wine, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.58)
+
+Rule#182: {red wine, milk} => {mineral water}
+(Support=0.0, Confidence=0.6)
+
+Rule#183: {red wine, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.57)
+
+Rule#184: {eggs, red wine} => {spaghetti}
+(Support=0.0, Confidence=0.53)
+
+Rule#185: {red wine, spaghetti} => {eggs}
+(Support=0.0, Confidence=0.36)
+
+Rule#186: {red wine, spaghetti} => {mineral water}
+(Support=0.0, Confidence=0.39)
+
+Rule#187: {red wine, mineral water} => {spaghetti}
+(Support=0.0, Confidence=0.37)
+
+Rule#188: {eggs, red wine} => {mineral water}
+(Support=0.0, Confidence=0.47)
+
+Rule#189: {red wine, mineral water} => {eggs}
+(Support=0.0, Confidence=0.3)
+
+Rule#190: {whole wheat pasta, olive oil} => {milk}
+(Support=0.0, Confidence=0.3)
+
+Rule#191: {whole wheat pasta, mineral water} => {olive oil}
+(Support=0.0, Confidence=0.4)
+
+Rule#192: {whole wheat pasta, olive oil} => {mineral water}
+(Support=0.0, Confidence=0.48)
+
+Rule#193: {whole wheat pasta, pancakes} => {mineral water}
+(Support=0.0, Confidence=0.49)
+
+Rule#194: {whole wheat pasta, frozen vegetables} => {mineral water}
+(Support=0.0, Confidence=0.49)
+
+Rule#195: {whole wheat pasta, ground beef} => {spaghetti}
+(Support=0.0, Confidence=0.47)
+
+Rule#196: {whole wheat pasta, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.53)
+
+Rule#197: {whole wheat pasta, chocolate} => {milk}
+(Support=0.0, Confidence=0.4)
+
+Rule#198: {whole wheat pasta, french fries} => {milk}
+(Support=0.0, Confidence=0.39)
+
+Rule#199: {whole wheat pasta, spaghetti} => {milk}
+(Support=0.0, Confidence=0.45)
+
+Rule#200: {whole wheat pasta, milk} => {spaghetti}
+(Support=0.0, Confidence=0.41)
+
+Rule#201: {eggs, whole wheat pasta} => {milk}
+(Support=0.0, Confidence=0.43)
+
+Rule#202: {whole wheat pasta, mineral water} => {milk}
+(Support=0.0, Confidence=0.31)
+
+Rule#203: {whole wheat pasta, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.4)
+
+Rule#204: {whole wheat pasta, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.36)
+
+Rule#205: {eggs, whole wheat pasta} => {spaghetti}
+(Support=0.0, Confidence=0.43)
+
+Rule#206: {whole wheat pasta, spaghetti} => {mineral water}
+(Support=0.0, Confidence=0.41)
+
+Rule#207: {whole wheat pasta, mineral water} => {spaghetti}
+(Support=0.0, Confidence=0.38)
+
+Rule#208: {eggs, butter} => {milk}
+(Support=0.0, Confidence=0.39)
+
+Rule#209: {butter, milk} => {eggs}
+(Support=0.0, Confidence=0.39)
+
+Rule#210: {butter, green tea} => {chocolate}
+(Support=0.0, Confidence=0.31)
+
+Rule#211: {butter, french fries} => {chocolate}
+(Support=0.0, Confidence=0.43)
+
+Rule#212: {butter, chocolate} => {french fries}
+(Support=0.0, Confidence=0.32)
+
+Rule#213: {butter, spaghetti} => {chocolate}
+(Support=0.0, Confidence=0.34)
+
+Rule#214: {tomato juice, pancakes} => {mineral water}
+(Support=0.0, Confidence=0.49)
+
+Rule#215: {tomato juice, frozen vegetables} => {mineral water}
+(Support=0.0, Confidence=0.46)
+
+Rule#216: {tomato juice, milk} => {mineral water}
+(Support=0.0, Confidence=0.42)
+
+Rule#217: {tomato juice, green tea} => {mineral water}
+(Support=0.0, Confidence=0.43)
+
+Rule#218: {tomato juice, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.36)
+
+Rule#219: {tomato juice, french fries} => {mineral water}
+(Support=0.0, Confidence=0.3)
+
+Rule#220: {spaghetti, tomato juice} => {mineral water}
+(Support=0.0, Confidence=0.39)
+
+Rule#221: {tomato juice, mineral water} => {spaghetti}
+(Support=0.0, Confidence=0.31)
+
+Rule#222: {eggs, tomato juice} => {mineral water}
+(Support=0.0, Confidence=0.42)
+
+Rule#223: {frozen smoothie, cottage cheese} => {mineral water}
+(Support=0.0, Confidence=0.43)
+
+Rule#224: {pancakes, cottage cheese} => {mineral water}
+(Support=0.0, Confidence=0.46)
+
+Rule#225: {milk, cottage cheese} => {mineral water}
+(Support=0.0, Confidence=0.46)
+
+Rule#226: {spaghetti, cottage cheese} => {mineral water}
+(Support=0.0, Confidence=0.48)
+
+Rule#227: {mineral water, cottage cheese} => {spaghetti}
+(Support=0.0, Confidence=0.35)
+
+Rule#228: {hot dogs, milk} => {spaghetti}
+(Support=0.0, Confidence=0.48)
+
+Rule#229: {hot dogs, milk} => {mineral water}
+(Support=0.0, Confidence=0.48)
+
+Rule#230: {hot dogs, green tea} => {french fries}
+(Support=0.0, Confidence=0.38)
+
+Rule#231: {hot dogs, french fries} => {green tea}
+(Support=0.0, Confidence=0.35)
+
+Rule#232: {hot dogs, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.41)
+
+Rule#233: {mineral water, hot dogs} => {chocolate}
+(Support=0.0, Confidence=0.3)
+
+Rule#234: {hot dogs, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.51)
+
+Rule#235: {spaghetti, hot dogs} => {mineral water}
+(Support=0.0, Confidence=0.43)
+
+Rule#236: {mineral water, hot dogs} => {spaghetti}
+(Support=0.0, Confidence=0.41)
+
+Rule#237: {avocado, soup} => {mineral water}
+(Support=0.0, Confidence=0.52)
+
+Rule#238: {avocado, spaghetti} => {burgers}
+(Support=0.0, Confidence=0.32)
+
+Rule#239: {avocado, burgers} => {spaghetti}
+(Support=0.0, Confidence=0.56)
+
+Rule#240: {avocado, chocolate} => {milk}
+(Support=0.0, Confidence=0.3)
+
+Rule#241: {avocado, spaghetti} => {milk}
+(Support=0.0, Confidence=0.42)
+
+Rule#242: {avocado, milk} => {spaghetti}
+(Support=0.0, Confidence=0.45)
+
+Rule#243: {avocado, milk} => {mineral water}
+(Support=0.0, Confidence=0.45)
+
+Rule#244: {avocado, green tea} => {french fries}
+(Support=0.0, Confidence=0.38)
+
+Rule#245: {avocado, french fries} => {green tea}
+(Support=0.0, Confidence=0.3)
+
+Rule#246: {avocado, chocolate} => {french fries}
+(Support=0.0, Confidence=0.32)
+
+Rule#247: {avocado, spaghetti} => {chocolate}
+(Support=0.0, Confidence=0.3)
+
+Rule#248: {avocado, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.34)
+
+Rule#249: {avocado, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.43)
+
+Rule#250: {avocado, french fries} => {mineral water}
+(Support=0.0, Confidence=0.37)
+
+Rule#251: {avocado, spaghetti} => {mineral water}
+(Support=0.0, Confidence=0.37)
+
+Rule#252: {avocado, eggs} => {mineral water}
+(Support=0.0, Confidence=0.38)
+
+Rule#253: {brownies, cake} => {mineral water}
+(Support=0.0, Confidence=0.41)
+
+Rule#254: {brownies, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.49)
+
+Rule#255: {brownies, milk} => {mineral water}
+(Support=0.0, Confidence=0.44)
+
+Rule#256: {spaghetti, brownies} => {mineral water}
+(Support=0.0, Confidence=0.36)
+
+Rule#257: {eggs, brownies} => {mineral water}
+(Support=0.0, Confidence=0.49)
+
+Rule#258: {brownies, mineral water} => {eggs}
+(Support=0.0, Confidence=0.38)
+
+Rule#259: {salmon, grated cheese} => {mineral water}
+(Support=0.0, Confidence=0.41)
+
+Rule#260: {frozen smoothie, salmon} => {spaghetti}
+(Support=0.0, Confidence=0.45)
+
+Rule#261: {frozen smoothie, salmon} => {mineral water}
+(Support=0.0, Confidence=0.45)
+
+Rule#262: {salmon, olive oil} => {spaghetti}
+(Support=0.0, Confidence=0.42)
+
+Rule#263: {salmon, olive oil} => {mineral water}
+(Support=0.0, Confidence=0.47)
+
+Rule#264: {tomatoes, salmon} => {mineral water}
+(Support=0.0, Confidence=0.43)
+
+Rule#265: {shrimp, salmon} => {spaghetti}
+(Support=0.0, Confidence=0.49)
+
+Rule#266: {shrimp, salmon} => {mineral water}
+(Support=0.0, Confidence=0.54)
+
+Rule#267: {salmon, pancakes} => {mineral water}
+(Support=0.0, Confidence=0.5)
+
+Rule#268: {frozen vegetables, salmon} => {milk}
+(Support=0.0, Confidence=0.36)
+
+Rule#269: {frozen vegetables, salmon} => {spaghetti}
+(Support=0.0, Confidence=0.36)
+
+Rule#270: {frozen vegetables, salmon} => {mineral water}
+(Support=0.0, Confidence=0.49)
+
+Rule#271: {spaghetti, mineral water, salmon} => {ground beef}
+(Support=0.0, Confidence=0.31)
+
+Rule#272: {spaghetti, salmon, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.55)
+
+Rule#273: {mineral water, salmon, ground beef} => {spaghetti}
+(Support=0.0, Confidence=0.55)
+
+Rule#274: {spaghetti, mineral water, salmon} => {milk}
+(Support=0.0, Confidence=0.33)
+
+Rule#275: {spaghetti, salmon, milk} => {mineral water}
+(Support=0.0, Confidence=0.65)
+
+Rule#276: {mineral water, salmon, milk} => {spaghetti}
+(Support=0.0, Confidence=0.52)
+
+Rule#277: {eggs, salmon} => {milk}
+(Support=0.0, Confidence=0.31)
+
+Rule#278: {salmon, green tea} => {mineral water}
+(Support=0.0, Confidence=0.45)
+
+Rule#279: {salmon, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.38)
+
+Rule#280: {salmon, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.43)
+
+Rule#281: {eggs, salmon} => {spaghetti}
+(Support=0.0, Confidence=0.39)
+
+Rule#282: {eggs, salmon} => {mineral water}
+(Support=0.0, Confidence=0.44)
+
+Rule#283: {chicken, fresh bread} => {mineral water}
+(Support=0.0, Confidence=0.51)
+
+Rule#284: {olive oil, fresh bread} => {mineral water}
+(Support=0.0, Confidence=0.47)
+
+Rule#285: {shrimp, fresh bread} => {milk}
+(Support=0.0, Confidence=0.41)
+
+Rule#286: {pancakes, fresh bread} => {mineral water}
+(Support=0.0, Confidence=0.4)
+
+Rule#287: {frozen vegetables, fresh bread} => {mineral water}
+(Support=0.0, Confidence=0.45)
+
+Rule#288: {ground beef, fresh bread} => {milk}
+(Support=0.0, Confidence=0.35)
+
+Rule#289: {ground beef, fresh bread} => {spaghetti}
+(Support=0.0, Confidence=0.39)
+
+Rule#290: {ground beef, fresh bread} => {mineral water}
+(Support=0.0, Confidence=0.41)
+
+Rule#291: {eggs, fresh bread} => {milk}
+(Support=0.0, Confidence=0.31)
+
+Rule#292: {mineral water, fresh bread} => {milk}
+(Support=0.0, Confidence=0.3)
+
+Rule#293: {milk, fresh bread} => {mineral water}
+(Support=0.0, Confidence=0.43)
+
+Rule#294: {green tea, fresh bread} => {mineral water}
+(Support=0.0, Confidence=0.4)
+
+Rule#295: {spaghetti, fresh bread} => {chocolate}
+(Support=0.0, Confidence=0.31)
+
+Rule#296: {mineral water, fresh bread} => {chocolate}
+(Support=0.0, Confidence=0.3)
+
+Rule#297: {fresh bread, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.42)
+
+Rule#298: {spaghetti, fresh bread} => {mineral water}
+(Support=0.0, Confidence=0.4)
+
+Rule#299: {eggs, fresh bread} => {mineral water}
+(Support=0.0, Confidence=0.42)
+
+Rule#300: {green tea, champagne} => {french fries}
+(Support=0.0, Confidence=0.31)
+
+Rule#301: {mineral water, champagne} => {chocolate}
+(Support=0.0, Confidence=0.32)
+
+Rule#302: {eggs, champagne} => {french fries}
+(Support=0.0, Confidence=0.36)
+
+Rule#303: {spaghetti, champagne} => {mineral water}
+(Support=0.0, Confidence=0.4)
+
+Rule#304: {mineral water, champagne} => {spaghetti}
+(Support=0.0, Confidence=0.36)
+
+Rule#305: {frozen smoothie, honey} => {french fries}
+(Support=0.0, Confidence=0.36)
+
+Rule#306: {frozen smoothie, honey} => {mineral water}
+(Support=0.0, Confidence=0.43)
+
+Rule#307: {honey, burgers} => {milk}
+(Support=0.0, Confidence=0.34)
+
+Rule#308: {honey, burgers} => {mineral water}
+(Support=0.0, Confidence=0.4)
+
+Rule#309: {honey, pancakes} => {spaghetti}
+(Support=0.0, Confidence=0.38)
+
+Rule#310: {honey, pancakes} => {mineral water}
+(Support=0.0, Confidence=0.36)
+
+Rule#311: {honey, frozen vegetables} => {spaghetti}
+(Support=0.0, Confidence=0.33)
+
+Rule#312: {honey, frozen vegetables} => {mineral water}
+(Support=0.0, Confidence=0.46)
+
+Rule#313: {honey, ground beef} => {spaghetti}
+(Support=0.0, Confidence=0.39)
+
+Rule#314: {honey, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.41)
+
+Rule#315: {honey, milk} => {mineral water}
+(Support=0.0, Confidence=0.43)
+
+Rule#316: {honey, green tea} => {mineral water}
+(Support=0.0, Confidence=0.3)
+
+Rule#317: {honey, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.32)
+
+Rule#318: {honey, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.38)
+
+Rule#319: {herb & pepper, cooking oil} => {spaghetti}
+(Support=0.0, Confidence=0.4)
+
+Rule#320: {herb & pepper, grated cheese} => {ground beef}
+(Support=0.0, Confidence=0.39)
+
+Rule#321: {herb & pepper, grated cheese} => {spaghetti}
+(Support=0.0, Confidence=0.47)
+
+Rule#322: {herb & pepper, grated cheese} => {mineral water}
+(Support=0.0, Confidence=0.43)
+
+Rule#323: {chicken, herb & pepper} => {ground beef}
+(Support=0.0, Confidence=0.43)
+
+Rule#324: {chicken, herb & pepper} => {mineral water}
+(Support=0.0, Confidence=0.43)
+
+Rule#325: {herb & pepper, turkey} => {spaghetti}
+(Support=0.0, Confidence=0.47)
+
+Rule#326: {herb & pepper, turkey} => {mineral water}
+(Support=0.0, Confidence=0.47)
+
+Rule#327: {herb & pepper, olive oil} => {spaghetti}
+(Support=0.0, Confidence=0.53)
+
+Rule#328: {herb & pepper, olive oil} => {mineral water}
+(Support=0.0, Confidence=0.42)
+
+Rule#329: {tomatoes, herb & pepper} => {mineral water}
+(Support=0.0, Confidence=0.55)
+
+Rule#330: {shrimp, herb & pepper} => {ground beef}
+(Support=0.0, Confidence=0.42)
+
+Rule#331: {shrimp, herb & pepper} => {spaghetti}
+(Support=0.0, Confidence=0.3)
+
+Rule#332: {shrimp, herb & pepper} => {eggs}
+(Support=0.0, Confidence=0.32)
+
+Rule#333: {shrimp, herb & pepper} => {mineral water}
+(Support=0.0, Confidence=0.36)
+
+Rule#334: {herb & pepper, low fat yogurt} => {ground beef}
+(Support=0.0, Confidence=0.41)
+
+Rule#335: {herb & pepper, low fat yogurt} => {spaghetti}
+(Support=0.0, Confidence=0.45)
+
+Rule#336: {herb & pepper, cake} => {eggs}
+(Support=0.0, Confidence=0.47)
+
+Rule#337: {herb & pepper, cake} => {mineral water}
+(Support=0.0, Confidence=0.5)
+
+Rule#338: {herb & pepper, burgers} => {ground beef}
+(Support=0.0, Confidence=0.55)
+
+Rule#339: {herb & pepper, pancakes} => {ground beef}
+(Support=0.0, Confidence=0.36)
+
+Rule#340: {spaghetti, herb & pepper, mineral water} => {pancakes}
+(Support=0.0, Confidence=0.36)
+
+Rule#341: {spaghetti, herb & pepper, pancakes} => {mineral water}
+(Support=0.0, Confidence=0.59)
+
+Rule#342: {herb & pepper, mineral water, pancakes} => {spaghetti}
+(Support=0.0, Confidence=0.59)
+
+Rule#343: {herb & pepper, pancakes} => {eggs}
+(Support=0.0, Confidence=0.33)
+
+Rule#344: {herb & pepper, frozen vegetables} => {ground beef}
+(Support=0.0, Confidence=0.47)
+
+Rule#345: {herb & pepper, frozen vegetables} => {spaghetti}
+(Support=0.0, Confidence=0.42)
+
+Rule#346: {herb & pepper, frozen vegetables} => {mineral water}
+(Support=0.0, Confidence=0.53)
+
+Rule#347: {herb & pepper, milk} => {ground beef}
+(Support=0.0, Confidence=0.39)
+
+Rule#348: {herb & pepper, mineral water, ground beef} => {chocolate}
+(Support=0.0, Confidence=0.34)
+
+Rule#349: {herb & pepper, mineral water, chocolate} => {ground beef}
+(Support=0.0, Confidence=0.57)
+
+Rule#350: {herb & pepper, ground beef, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.57)
+
+Rule#351: {herb & pepper, french fries} => {ground beef}
+(Support=0.0, Confidence=0.46)
+
+Rule#352: {spaghetti, herb & pepper, mineral water} => {ground beef}
+(Support=0.0, Confidence=0.47)
+
+Rule#353: {spaghetti, herb & pepper, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.44)
+
+Rule#354: {herb & pepper, mineral water, ground beef} => {spaghetti}
+(Support=0.0, Confidence=0.42)
+
+Rule#355: {eggs, herb & pepper} => {ground beef}
+(Support=0.0, Confidence=0.33)
+
+Rule#356: {herb & pepper, milk} => {spaghetti}
+(Support=0.0, Confidence=0.35)
+
+Rule#357: {herb & pepper, milk} => {eggs}
+(Support=0.0, Confidence=0.36)
+
+Rule#358: {herb & pepper, milk} => {mineral water}
+(Support=0.0, Confidence=0.45)
+
+Rule#359: {herb & pepper, green tea} => {spaghetti}
+(Support=0.0, Confidence=0.38)
+
+Rule#360: {herb & pepper, green tea} => {mineral water}
+(Support=0.0, Confidence=0.38)
+
+Rule#361: {herb & pepper, chocolate} => {eggs}
+(Support=0.0, Confidence=0.32)
+
+Rule#362: {herb & pepper, french fries} => {spaghetti}
+(Support=0.0, Confidence=0.37)
+
+Rule#363: {herb & pepper, french fries} => {mineral water}
+(Support=0.0, Confidence=0.35)
+
+Rule#364: {eggs, spaghetti, herb & pepper} => {mineral water}
+(Support=0.0, Confidence=0.5)
+
+Rule#365: {eggs, herb & pepper, mineral water} => {spaghetti}
+(Support=0.0, Confidence=0.45)
+
+Rule#366: {spaghetti, herb & pepper, mineral water} => {eggs}
+(Support=0.0, Confidence=0.4)
+
+Rule#367: {soup, cooking oil} => {mineral water}
+(Support=0.0, Confidence=0.45)
+
+Rule#368: {soup, chicken} => {milk}
+(Support=0.0, Confidence=0.44)
+
+Rule#369: {soup, chicken} => {chocolate}
+(Support=0.0, Confidence=0.38)
+
+Rule#370: {soup, chicken} => {spaghetti}
+(Support=0.0, Confidence=0.44)
+
+Rule#371: {soup, chicken} => {mineral water}
+(Support=0.0, Confidence=0.53)
+
+Rule#372: {soup, turkey} => {spaghetti}
+(Support=0.0, Confidence=0.46)
+
+Rule#373: {soup, turkey} => {mineral water}
+(Support=0.0, Confidence=0.46)
+
+Rule#374: {soup, mineral water, olive oil} => {milk}
+(Support=0.0, Confidence=0.44)
+
+Rule#375: {soup, milk, olive oil} => {mineral water}
+(Support=0.0, Confidence=0.63)
+
+Rule#376: {soup, olive oil} => {spaghetti}
+(Support=0.0, Confidence=0.33)
+
+Rule#377: {tomatoes, soup} => {milk}
+(Support=0.0, Confidence=0.44)
+
+Rule#378: {tomatoes, soup} => {spaghetti}
+(Support=0.0, Confidence=0.33)
+
+Rule#379: {tomatoes, soup} => {mineral water}
+(Support=0.0, Confidence=0.54)
+
+Rule#380: {soup, shrimp} => {milk}
+(Support=0.0, Confidence=0.4)
+
+Rule#381: {soup, shrimp} => {mineral water}
+(Support=0.0, Confidence=0.48)
+
+Rule#382: {soup, low fat yogurt} => {mineral water}
+(Support=0.0, Confidence=0.47)
+
+Rule#383: {soup, cake} => {spaghetti}
+(Support=0.0, Confidence=0.41)
+
+Rule#384: {soup, cake} => {mineral water}
+(Support=0.0, Confidence=0.52)
+
+Rule#385: {soup, burgers} => {milk}
+(Support=0.0, Confidence=0.4)
+
+Rule#386: {soup, burgers} => {spaghetti}
+(Support=0.0, Confidence=0.4)
+
+Rule#387: {soup, burgers} => {mineral water}
+(Support=0.0, Confidence=0.4)
+
+Rule#388: {soup, pancakes} => {ground beef}
+(Support=0.0, Confidence=0.33)
+
+Rule#389: {soup, pancakes} => {milk}
+(Support=0.0, Confidence=0.33)
+
+Rule#390: {soup, pancakes} => {chocolate}
+(Support=0.0, Confidence=0.31)
+
+Rule#391: {soup, spaghetti, mineral water} => {pancakes}
+(Support=0.0, Confidence=0.3)
+
+Rule#392: {soup, pancakes} => {spaghetti, mineral water}
+(Support=0.0, Confidence=0.33)
+
+Rule#393: {soup, spaghetti, pancakes} => {mineral water}
+(Support=0.0, Confidence=0.77)
+
+Rule#394: {soup, mineral water, pancakes} => {spaghetti}
+(Support=0.0, Confidence=0.53)
+
+Rule#395: {soup, frozen vegetables} => {ground beef}
+(Support=0.0, Confidence=0.32)
+
+Rule#396: {soup, frozen vegetables} => {mineral water, milk}
+(Support=0.0, Confidence=0.38)
+
+Rule#397: {soup, frozen vegetables, mineral water} => {milk}
+(Support=0.0, Confidence=0.61)
+
+Rule#398: {soup, frozen vegetables, milk} => {mineral water}
+(Support=0.0, Confidence=0.77)
+
+Rule#399: {soup, mineral water, milk} => {frozen vegetables}
+(Support=0.0, Confidence=0.36)
+
+Rule#400: {soup, frozen vegetables} => {spaghetti}
+(Support=0.0, Confidence=0.45)
+
+Rule#401: {soup, mineral water, ground beef} => {milk}
+(Support=0.0, Confidence=0.42)
+
+Rule#402: {soup, milk, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.53)
+
+Rule#403: {soup, ground beef} => {spaghetti}
+(Support=0.0, Confidence=0.4)
+
+Rule#404: {soup, mineral water, chocolate} => {milk}
+(Support=0.0, Confidence=0.45)
+
+Rule#405: {soup, milk, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.63)
+
+Rule#406: {soup, spaghetti, mineral water} => {milk}
+(Support=0.0, Confidence=0.32)
+
+Rule#407: {soup, spaghetti, milk} => {mineral water}
+(Support=0.0, Confidence=0.53)
+
+Rule#408: {soup, green tea} => {mineral water}
+(Support=0.0, Confidence=0.38)
+
+Rule#409: {soup, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.3)
+
+Rule#410: {soup, french fries} => {mineral water}
+(Support=0.0, Confidence=0.42)
+
+Rule#411: {eggs, soup, spaghetti} => {mineral water}
+(Support=0.0, Confidence=0.67)
+
+Rule#412: {eggs, soup, mineral water} => {spaghetti}
+(Support=0.0, Confidence=0.43)
+
+Rule#413: {grated cheese, cooking oil} => {mineral water}
+(Support=0.0, Confidence=0.37)
+
+Rule#414: {whole wheat rice, cooking oil} => {mineral water}
+(Support=0.0, Confidence=0.44)
+
+Rule#415: {chicken, cooking oil} => {chocolate}
+(Support=0.0, Confidence=0.35)
+
+Rule#416: {chicken, cooking oil} => {spaghetti}
+(Support=0.0, Confidence=0.37)
+
+Rule#417: {turkey, cooking oil} => {mineral water}
+(Support=0.0, Confidence=0.4)
+
+Rule#418: {frozen smoothie, cooking oil} => {mineral water}
+(Support=0.0, Confidence=0.47)
+
+Rule#419: {olive oil, cooking oil} => {spaghetti}
+(Support=0.0, Confidence=0.45)
+
+Rule#420: {olive oil, cooking oil} => {mineral water}
+(Support=0.0, Confidence=0.5)
+
+Rule#421: {tomatoes, cooking oil} => {spaghetti}
+(Support=0.0, Confidence=0.34)
+
+Rule#422: {tomatoes, cooking oil} => {mineral water}
+(Support=0.0, Confidence=0.4)
+
+Rule#423: {low fat yogurt, cooking oil} => {mineral water}
+(Support=0.0, Confidence=0.41)
+
+Rule#424: {escalope, cooking oil} => {spaghetti}
+(Support=0.0, Confidence=0.43)
+
+Rule#425: {escalope, cooking oil} => {mineral water}
+(Support=0.0, Confidence=0.43)
+
+Rule#426: {cake, cooking oil} => {mineral water}
+(Support=0.0, Confidence=0.51)
+
+Rule#427: {cooking oil, burgers} => {eggs}
+(Support=0.0, Confidence=0.44)
+
+Rule#428: {cooking oil, burgers} => {mineral water}
+(Support=0.0, Confidence=0.42)
+
+Rule#429: {pancakes, cooking oil} => {chocolate}
+(Support=0.0, Confidence=0.32)
+
+Rule#430: {spaghetti, pancakes, cooking oil} => {mineral water}
+(Support=0.0, Confidence=0.73)
+
+Rule#431: {mineral water, pancakes, cooking oil} => {spaghetti}
+(Support=0.0, Confidence=0.46)
+
+Rule#432: {frozen vegetables, cooking oil} => {milk}
+(Support=0.0, Confidence=0.41)
+
+Rule#433: {frozen vegetables, cooking oil} => {spaghetti}
+(Support=0.0, Confidence=0.35)
+
+Rule#434: {frozen vegetables, cooking oil} => {eggs}
+(Support=0.0, Confidence=0.33)
+
+Rule#435: {frozen vegetables, cooking oil} => {mineral water}
+(Support=0.0, Confidence=0.41)
+
+Rule#436: {spaghetti, ground beef, cooking oil} => {mineral water}
+(Support=0.0, Confidence=0.44)
+
+Rule#437: {mineral water, ground beef, cooking oil} => {spaghetti}
+(Support=0.0, Confidence=0.67)
+
+Rule#438: {milk, cooking oil} => {chocolate}
+(Support=0.0, Confidence=0.38)
+
+Rule#439: {cooking oil, chocolate} => {milk}
+(Support=0.0, Confidence=0.32)
+
+Rule#440: {milk, cooking oil} => {spaghetti}
+(Support=0.0, Confidence=0.3)
+
+Rule#441: {eggs, mineral water, cooking oil} => {milk}
+(Support=0.0, Confidence=0.33)
+
+Rule#442: {eggs, milk, cooking oil} => {mineral water}
+(Support=0.0, Confidence=0.53)
+
+Rule#443: {mineral water, milk, cooking oil} => {eggs}
+(Support=0.0, Confidence=0.46)
+
+Rule#444: {green tea, cooking oil} => {spaghetti}
+(Support=0.0, Confidence=0.34)
+
+Rule#445: {green tea, cooking oil} => {mineral water}
+(Support=0.0, Confidence=0.45)
+
+Rule#446: {cooking oil, french fries} => {chocolate}
+(Support=0.0, Confidence=0.36)
+
+Rule#447: {spaghetti, mineral water, cooking oil} => {chocolate}
+(Support=0.0, Confidence=0.32)
+
+Rule#448: {spaghetti, cooking oil, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.55)
+
+Rule#449: {mineral water, cooking oil, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.42)
+
+Rule#450: {eggs, mineral water, cooking oil} => {chocolate}
+(Support=0.0, Confidence=0.38)
+
+Rule#451: {eggs, cooking oil, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.53)
+
+Rule#452: {mineral water, cooking oil, chocolate} => {eggs}
+(Support=0.0, Confidence=0.42)
+
+Rule#453: {cooking oil, french fries} => {eggs}
+(Support=0.0, Confidence=0.31)
+
+Rule#454: {cooking oil, french fries} => {mineral water}
+(Support=0.0, Confidence=0.37)
+
+Rule#455: {eggs, spaghetti, cooking oil} => {mineral water}
+(Support=0.0, Confidence=0.71)
+
+Rule#456: {eggs, mineral water, cooking oil} => {spaghetti}
+(Support=0.0, Confidence=0.46)
+
+Rule#457: {spaghetti, mineral water, cooking oil} => {eggs}
+(Support=0.0, Confidence=0.39)
+
+Rule#458: {olive oil, grated cheese} => {spaghetti}
+(Support=0.0, Confidence=0.4)
+
+Rule#459: {olive oil, grated cheese} => {mineral water}
+(Support=0.0, Confidence=0.47)
+
+Rule#460: {tomatoes, grated cheese} => {spaghetti}
+(Support=0.0, Confidence=0.52)
+
+Rule#461: {cake, grated cheese} => {mineral water}
+(Support=0.0, Confidence=0.5)
+
+Rule#462: {grated cheese, burgers} => {spaghetti}
+(Support=0.0, Confidence=0.46)
+
+Rule#463: {grated cheese, burgers} => {mineral water}
+(Support=0.0, Confidence=0.44)
+
+Rule#464: {pancakes, grated cheese} => {ground beef}
+(Support=0.0, Confidence=0.37)
+
+Rule#465: {pancakes, grated cheese} => {spaghetti}
+(Support=0.0, Confidence=0.44)
+
+Rule#466: {pancakes, grated cheese} => {mineral water}
+(Support=0.0, Confidence=0.5)
+
+Rule#467: {frozen vegetables, grated cheese} => {milk}
+(Support=0.0, Confidence=0.31)
+
+Rule#468: {frozen vegetables, grated cheese} => {spaghetti}
+(Support=0.0, Confidence=0.35)
+
+Rule#469: {frozen vegetables, grated cheese} => {mineral water}
+(Support=0.0, Confidence=0.37)
+
+Rule#470: {milk, grated cheese} => {ground beef}
+(Support=0.0, Confidence=0.32)
+
+Rule#471: {spaghetti, mineral water, grated cheese} => {ground beef}
+(Support=0.0, Confidence=0.38)
+
+Rule#472: {spaghetti, ground beef, grated cheese} => {mineral water}
+(Support=0.0, Confidence=0.45)
+
+Rule#473: {mineral water, ground beef, grated cheese} => {spaghetti}
+(Support=0.0, Confidence=0.47)
+
+Rule#474: {milk, grated cheese} => {spaghetti}
+(Support=0.0, Confidence=0.46)
+
+Rule#475: {milk, grated cheese} => {mineral water}
+(Support=0.0, Confidence=0.46)
+
+Rule#476: {green tea, grated cheese} => {spaghetti}
+(Support=0.0, Confidence=0.41)
+
+Rule#477: {green tea, grated cheese} => {mineral water}
+(Support=0.0, Confidence=0.31)
+
+Rule#478: {grated cheese, french fries} => {chocolate}
+(Support=0.0, Confidence=0.31)
+
+Rule#479: {grated cheese, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.37)
+
+Rule#480: {eggs, spaghetti, grated cheese} => {mineral water}
+(Support=0.0, Confidence=0.5)
+
+Rule#481: {eggs, mineral water, grated cheese} => {spaghetti}
+(Support=0.0, Confidence=0.48)
+
+Rule#482: {spaghetti, mineral water, grated cheese} => {eggs}
+(Support=0.0, Confidence=0.34)
+
+Rule#483: {whole wheat rice, turkey} => {milk}
+(Support=0.0, Confidence=0.36)
+
+Rule#484: {whole wheat rice, turkey} => {spaghetti}
+(Support=0.0, Confidence=0.3)
+
+Rule#485: {whole wheat rice, turkey} => {mineral water}
+(Support=0.0, Confidence=0.36)
+
+Rule#486: {frozen smoothie, whole wheat rice} => {spaghetti}
+(Support=0.0, Confidence=0.36)
+
+Rule#487: {frozen smoothie, whole wheat rice} => {mineral water}
+(Support=0.0, Confidence=0.36)
+
+Rule#488: {tomatoes, whole wheat rice} => {milk}
+(Support=0.0, Confidence=0.38)
+
+Rule#489: {tomatoes, whole wheat rice} => {spaghetti}
+(Support=0.0, Confidence=0.51)
+
+Rule#490: {tomatoes, whole wheat rice} => {mineral water}
+(Support=0.0, Confidence=0.42)
+
+Rule#491: {shrimp, whole wheat rice} => {milk}
+(Support=0.0, Confidence=0.36)
+
+Rule#492: {shrimp, whole wheat rice} => {mineral water}
+(Support=0.0, Confidence=0.36)
+
+Rule#493: {whole wheat rice, low fat yogurt} => {mineral water}
+(Support=0.0, Confidence=0.45)
+
+Rule#494: {whole wheat rice, escalope} => {mineral water}
+(Support=0.0, Confidence=0.49)
+
+Rule#495: {whole wheat rice, cake} => {mineral water}
+(Support=0.0, Confidence=0.47)
+
+Rule#496: {whole wheat rice, burgers} => {milk}
+(Support=0.0, Confidence=0.34)
+
+Rule#497: {whole wheat rice, burgers} => {chocolate}
+(Support=0.0, Confidence=0.33)
+
+Rule#498: {whole wheat rice, burgers} => {spaghetti}
+(Support=0.0, Confidence=0.34)
+
+Rule#499: {whole wheat rice, burgers} => {mineral water}
+(Support=0.0, Confidence=0.4)
+
+Rule#500: {whole wheat rice, pancakes} => {spaghetti}
+(Support=0.0, Confidence=0.31)
+
+Rule#501: {whole wheat rice, pancakes} => {mineral water}
+(Support=0.0, Confidence=0.6)
+
+Rule#502: {whole wheat rice, frozen vegetables} => {milk}
+(Support=0.0, Confidence=0.34)
+
+Rule#503: {whole wheat rice, frozen vegetables} => {spaghetti}
+(Support=0.0, Confidence=0.35)
+
+Rule#504: {whole wheat rice, frozen vegetables} => {mineral water}
+(Support=0.0, Confidence=0.49)
+
+Rule#505: {whole wheat rice, ground beef} => {milk}
+(Support=0.0, Confidence=0.34)
+
+Rule#506: {whole wheat rice, ground beef} => {spaghetti}
+(Support=0.0, Confidence=0.36)
+
+Rule#507: {whole wheat rice, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.48)
+
+Rule#508: {whole wheat rice, milk} => {spaghetti}
+(Support=0.0, Confidence=0.31)
+
+Rule#509: {whole wheat rice, milk} => {mineral water}
 (Support=0.01, Confidence=0.43)
 
-Rule#36: {frozen vegetables, mineral water} => {spaghetti}
-(Support=0.01, Confidence=0.34)
+Rule#510: {whole wheat rice, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.34)
 
-Rule#37: {milk, ground beef} => {mineral water}
-(Support=0.01, Confidence=0.5)
+Rule#511: {whole wheat rice, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.32)
 
-Rule#38: {ground beef, chocolate} => {mineral water}
-(Support=0.01, Confidence=0.47)
+Rule#512: {whole wheat rice, french fries} => {spaghetti}
+(Support=0.0, Confidence=0.3)
 
-Rule#39: {spaghetti, ground beef} => {mineral water}
-(Support=0.02, Confidence=0.44)
-
-Rule#40: {mineral water, ground beef} => {spaghetti}
-(Support=0.02, Confidence=0.42)
-
-Rule#41: {eggs, ground beef} => {mineral water}
-(Support=0.01, Confidence=0.51)
-
-Rule#42: {spaghetti, milk} => {chocolate}
-(Support=0.01, Confidence=0.31)
-
-Rule#43: {milk, chocolate} => {spaghetti}
-(Support=0.01, Confidence=0.34)
-
-Rule#44: {milk, chocolate} => {mineral water}
+Rule#513: {spaghetti, whole wheat rice} => {mineral water}
 (Support=0.01, Confidence=0.44)
 
-Rule#45: {spaghetti, milk} => {mineral water}
-(Support=0.02, Confidence=0.44)
+Rule#514: {whole wheat rice, mineral water} => {spaghetti}
+(Support=0.01, Confidence=0.31)
 
-Rule#46: {mineral water, milk} => {spaghetti}
-(Support=0.02, Confidence=0.33)
+Rule#515: {eggs, whole wheat rice} => {mineral water}
+(Support=0.0, Confidence=0.35)
 
-Rule#47: {eggs, milk} => {mineral water}
-(Support=0.01, Confidence=0.42)
+Rule#516: {chicken, turkey} => {mineral water}
+(Support=0.0, Confidence=0.47)
 
-Rule#48: {eggs, chocolate} => {spaghetti}
-(Support=0.01, Confidence=0.32)
+Rule#517: {frozen smoothie, chicken} => {milk}
+(Support=0.0, Confidence=0.4)
 
-Rule#49: {spaghetti, chocolate} => {mineral water}
-(Support=0.02, Confidence=0.4)
+Rule#518: {frozen smoothie, chicken} => {chocolate}
+(Support=0.0, Confidence=0.36)
 
-Rule#50: {mineral water, chocolate} => {spaghetti}
-(Support=0.02, Confidence=0.3)
+Rule#519: {frozen smoothie, chicken} => {mineral water}
+(Support=0.0, Confidence=0.4)
 
-Rule#51: {eggs, chocolate} => {mineral water}
+Rule#520: {chicken, olive oil} => {milk}
+(Support=0.0, Confidence=0.5)
+
+Rule#521: {chicken, olive oil} => {chocolate}
+(Support=0.0, Confidence=0.33)
+
+Rule#522: {chicken, olive oil} => {spaghetti}
+(Support=0.0, Confidence=0.48)
+
+Rule#523: {chicken, olive oil} => {mineral water}
+(Support=0.0, Confidence=0.5)
+
+Rule#524: {tomatoes, chicken} => {spaghetti}
+(Support=0.0, Confidence=0.46)
+
+Rule#525: {tomatoes, chicken} => {mineral water}
+(Support=0.0, Confidence=0.5)
+
+Rule#526: {chicken, shrimp} => {spaghetti}
+(Support=0.0, Confidence=0.45)
+
+Rule#527: {chicken, shrimp} => {mineral water}
+(Support=0.0, Confidence=0.47)
+
+Rule#528: {chicken, cake} => {milk}
+(Support=0.0, Confidence=0.33)
+
+Rule#529: {chicken, cake} => {spaghetti}
+(Support=0.0, Confidence=0.39)
+
+Rule#530: {chicken, cake} => {mineral water}
+(Support=0.0, Confidence=0.47)
+
+Rule#531: {chicken, burgers} => {milk}
+(Support=0.0, Confidence=0.34)
+
+Rule#532: {chicken, burgers} => {chocolate}
+(Support=0.0, Confidence=0.4)
+
+Rule#533: {chicken, burgers} => {spaghetti}
+(Support=0.0, Confidence=0.38)
+
+Rule#534: {chicken, burgers} => {mineral water}
+(Support=0.0, Confidence=0.4)
+
+Rule#535: {chicken, pancakes} => {milk}
+(Support=0.0, Confidence=0.34)
+
+Rule#536: {chicken, pancakes} => {spaghetti}
+(Support=0.0, Confidence=0.35)
+
+Rule#537: {chicken, pancakes} => {mineral water}
+(Support=0.0, Confidence=0.53)
+
+Rule#538: {chicken, frozen vegetables} => {milk}
+(Support=0.0, Confidence=0.33)
+
+Rule#539: {chicken, frozen vegetables} => {spaghetti}
+(Support=0.0, Confidence=0.34)
+
+Rule#540: {chicken, frozen vegetables} => {mineral water}
+(Support=0.0, Confidence=0.42)
+
+Rule#541: {chicken, ground beef} => {milk}
+(Support=0.0, Confidence=0.41)
+
+Rule#542: {chicken, ground beef} => {spaghetti}
+(Support=0.0, Confidence=0.51)
+
+Rule#543: {chicken, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.41)
+
+Rule#544: {chicken, mineral water, milk} => {chocolate}
+(Support=0.0, Confidence=0.36)
+
+Rule#545: {chicken, mineral water, chocolate} => {milk}
+(Support=0.0, Confidence=0.32)
+
+Rule#546: {chicken, milk, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.53)
+
+Rule#547: {chicken, french fries} => {milk}
+(Support=0.0, Confidence=0.3)
+
+Rule#548: {chicken, spaghetti, mineral water} => {milk}
+(Support=0.0, Confidence=0.38)
+
+Rule#549: {chicken, spaghetti, milk} => {mineral water}
+(Support=0.0, Confidence=0.49)
+
+Rule#550: {chicken, mineral water, milk} => {spaghetti}
+(Support=0.0, Confidence=0.4)
+
+Rule#551: {chicken, green tea} => {chocolate}
+(Support=0.0, Confidence=0.34)
+
+Rule#552: {chicken, green tea} => {mineral water}
+(Support=0.0, Confidence=0.33)
+
+Rule#553: {chicken, french fries} => {chocolate}
+(Support=0.0, Confidence=0.34)
+
+Rule#554: {chicken, spaghetti, mineral water} => {chocolate}
+(Support=0.0, Confidence=0.33)
+
+Rule#555: {chicken, spaghetti, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.53)
+
+Rule#556: {chicken, french fries} => {spaghetti}
+(Support=0.0, Confidence=0.35)
+
+Rule#557: {chicken, french fries} => {mineral water}
+(Support=0.0, Confidence=0.39)
+
+Rule#558: {eggs, chicken} => {mineral water}
+(Support=0.01, Confidence=0.36)
+
+Rule#559: {turkey, olive oil} => {spaghetti}
+(Support=0.0, Confidence=0.5)
+
+Rule#560: {tomatoes, turkey} => {milk}
+(Support=0.0, Confidence=0.35)
+
+Rule#561: {tomatoes, turkey} => {spaghetti}
+(Support=0.0, Confidence=0.45)
+
+Rule#562: {tomatoes, turkey} => {mineral water}
+(Support=0.0, Confidence=0.33)
+
+Rule#563: {shrimp, turkey} => {spaghetti}
+(Support=0.0, Confidence=0.4)
+
+Rule#564: {shrimp, turkey} => {mineral water}
+(Support=0.0, Confidence=0.38)
+
+Rule#565: {turkey, cake} => {burgers}
+(Support=0.0, Confidence=0.33)
+
+Rule#566: {turkey, cake} => {milk}
+(Support=0.0, Confidence=0.37)
+
+Rule#567: {turkey, cake} => {eggs}
+(Support=0.0, Confidence=0.46)
+
+Rule#568: {turkey, cake} => {mineral water}
+(Support=0.0, Confidence=0.42)
+
+Rule#569: {turkey, burgers} => {milk}
+(Support=0.0, Confidence=0.3)
+
+Rule#570: {turkey, burgers} => {spaghetti}
+(Support=0.0, Confidence=0.3)
+
+Rule#571: {turkey, burgers} => {eggs}
+(Support=0.0, Confidence=0.36)
+
+Rule#572: {turkey, burgers} => {mineral water}
+(Support=0.0, Confidence=0.33)
+
+Rule#573: {turkey, pancakes} => {spaghetti}
+(Support=0.0, Confidence=0.39)
+
+Rule#574: {turkey, pancakes} => {eggs}
+(Support=0.0, Confidence=0.31)
+
+Rule#575: {turkey, pancakes} => {mineral water}
+(Support=0.0, Confidence=0.35)
+
+Rule#576: {turkey, frozen vegetables} => {milk}
+(Support=0.0, Confidence=0.3)
+
+Rule#577: {turkey, frozen vegetables} => {spaghetti}
+(Support=0.0, Confidence=0.33)
+
+Rule#578: {turkey, frozen vegetables} => {mineral water}
+(Support=0.0, Confidence=0.5)
+
+Rule#579: {turkey, mineral water, milk} => {ground beef}
+(Support=0.0, Confidence=0.35)
+
+Rule#580: {turkey, mineral water, ground beef} => {milk}
+(Support=0.0, Confidence=0.55)
+
+Rule#581: {turkey, milk, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.64)
+
+Rule#582: {turkey, ground beef} => {spaghetti}
+(Support=0.0, Confidence=0.32)
+
+Rule#583: {turkey, milk} => {chocolate}
+(Support=0.0, Confidence=0.31)
+
+Rule#584: {turkey, chocolate} => {milk}
+(Support=0.0, Confidence=0.31)
+
+Rule#585: {spaghetti, turkey, mineral water} => {milk}
+(Support=0.0, Confidence=0.42)
+
+Rule#586: {spaghetti, turkey, milk} => {mineral water}
+(Support=0.0, Confidence=0.56)
+
+Rule#587: {turkey, mineral water, milk} => {spaghetti}
+(Support=0.0, Confidence=0.43)
+
+Rule#588: {eggs, turkey, mineral water} => {milk}
+(Support=0.0, Confidence=0.4)
+
+Rule#589: {eggs, turkey, milk} => {mineral water}
+(Support=0.0, Confidence=0.59)
+
+Rule#590: {turkey, mineral water, milk} => {eggs}
+(Support=0.0, Confidence=0.37)
+
+Rule#591: {turkey, green tea} => {eggs}
+(Support=0.0, Confidence=0.33)
+
+Rule#592: {turkey, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.31)
+
+Rule#593: {turkey, chocolate} => {eggs}
+(Support=0.0, Confidence=0.32)
+
+Rule#594: {turkey, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.36)
+
+Rule#595: {turkey, french fries} => {eggs}
+(Support=0.0, Confidence=0.36)
+
+Rule#596: {spaghetti, turkey} => {eggs}
+(Support=0.01, Confidence=0.31)
+
+Rule#597: {frozen smoothie, olive oil} => {milk}
+(Support=0.0, Confidence=0.35)
+
+Rule#598: {frozen smoothie, olive oil} => {spaghetti}
+(Support=0.0, Confidence=0.35)
+
+Rule#599: {frozen smoothie, olive oil} => {mineral water}
+(Support=0.0, Confidence=0.38)
+
+Rule#600: {frozen smoothie, tomatoes} => {spaghetti}
+(Support=0.0, Confidence=0.43)
+
+Rule#601: {frozen smoothie, shrimp} => {frozen vegetables}
+(Support=0.0, Confidence=0.38)
+
+Rule#602: {frozen smoothie, shrimp} => {milk}
+(Support=0.0, Confidence=0.33)
+
+Rule#603: {frozen smoothie, shrimp} => {spaghetti}
+(Support=0.0, Confidence=0.38)
+
+Rule#604: {frozen smoothie, shrimp} => {mineral water}
+(Support=0.0, Confidence=0.35)
+
+Rule#605: {frozen smoothie, low fat yogurt} => {french fries}
+(Support=0.0, Confidence=0.33)
+
+Rule#606: {frozen smoothie, low fat yogurt} => {mineral water}
+(Support=0.0, Confidence=0.31)
+
+Rule#607: {frozen smoothie, escalope} => {chocolate}
+(Support=0.0, Confidence=0.44)
+
+Rule#608: {frozen smoothie, cake} => {mineral water}
+(Support=0.0, Confidence=0.5)
+
+Rule#609: {frozen smoothie, burgers} => {mineral water}
+(Support=0.0, Confidence=0.44)
+
+Rule#610: {frozen smoothie, pancakes} => {spaghetti}
+(Support=0.0, Confidence=0.4)
+
+Rule#611: {frozen smoothie, pancakes} => {mineral water}
+(Support=0.0, Confidence=0.43)
+
+Rule#612: {frozen smoothie, frozen vegetables} => {spaghetti}
+(Support=0.0, Confidence=0.41)
+
+Rule#613: {frozen smoothie, frozen vegetables} => {mineral water}
+(Support=0.0, Confidence=0.33)
+
+Rule#614: {frozen smoothie, ground beef} => {spaghetti}
+(Support=0.0, Confidence=0.4)
+
+Rule#615: {frozen smoothie, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.46)
+
+Rule#616: {frozen smoothie, spaghetti, mineral water} => {milk}
+(Support=0.0, Confidence=0.47)
+
+Rule#617: {frozen smoothie, spaghetti, milk} => {mineral water}
+(Support=0.0, Confidence=0.57)
+
+Rule#618: {frozen smoothie, mineral water, milk} => {spaghetti}
+(Support=0.0, Confidence=0.52)
+
+Rule#619: {frozen smoothie, green tea} => {french fries}
+(Support=0.0, Confidence=0.35)
+
+Rule#620: {frozen smoothie, green tea} => {mineral water}
+(Support=0.0, Confidence=0.33)
+
+Rule#621: {frozen smoothie, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.31)
+
+Rule#622: {frozen smoothie, chocolate} => {mineral water}
+(Support=0.01, Confidence=0.34)
+
+Rule#623: {frozen smoothie, eggs} => {mineral water}
+(Support=0.0, Confidence=0.37)
+
+Rule#624: {tomatoes, spaghetti, frozen vegetables} => {olive oil}
+(Support=0.0, Confidence=0.32)
+
+Rule#625: {tomatoes, spaghetti, olive oil} => {frozen vegetables}
+(Support=0.0, Confidence=0.48)
+
+Rule#626: {tomatoes, frozen vegetables, olive oil} => {spaghetti}
+(Support=0.0, Confidence=0.84)
+
+Rule#627: {spaghetti, frozen vegetables, olive oil} => {tomatoes}
+(Support=0.0, Confidence=0.37)
+
+Rule#628: {tomatoes, olive oil} => {chocolate}
+(Support=0.0, Confidence=0.31)
+
+Rule#629: {tomatoes, olive oil} => {spaghetti, mineral water}
+(Support=0.0, Confidence=0.31)
+
+Rule#630: {tomatoes, spaghetti, olive oil} => {mineral water}
+(Support=0.0, Confidence=0.52)
+
+Rule#631: {tomatoes, mineral water, olive oil} => {spaghetti}
+(Support=0.0, Confidence=0.55)
+
+Rule#632: {shrimp, olive oil} => {milk}
+(Support=0.0, Confidence=0.39)
+
+Rule#633: {shrimp, olive oil} => {chocolate}
+(Support=0.0, Confidence=0.36)
+
+Rule#634: {shrimp, spaghetti, olive oil} => {mineral water}
+(Support=0.0, Confidence=0.63)
+
+Rule#635: {shrimp, mineral water, olive oil} => {spaghetti}
+(Support=0.0, Confidence=0.5)
+
+Rule#636: {olive oil, low fat yogurt} => {milk}
+(Support=0.0, Confidence=0.33)
+
+Rule#637: {olive oil, low fat yogurt} => {spaghetti}
+(Support=0.0, Confidence=0.35)
+
+Rule#638: {olive oil, low fat yogurt} => {mineral water}
+(Support=0.0, Confidence=0.37)
+
+Rule#639: {cake, olive oil} => {milk}
+(Support=0.0, Confidence=0.33)
+
+Rule#640: {cake, olive oil} => {chocolate}
+(Support=0.0, Confidence=0.43)
+
+Rule#641: {cake, olive oil} => {spaghetti}
+(Support=0.0, Confidence=0.47)
+
+Rule#642: {cake, olive oil} => {mineral water}
+(Support=0.0, Confidence=0.49)
+
+Rule#643: {olive oil, burgers} => {milk}
+(Support=0.0, Confidence=0.38)
+
+Rule#644: {olive oil, burgers} => {chocolate}
+(Support=0.0, Confidence=0.38)
+
+Rule#645: {olive oil, burgers} => {spaghetti}
+(Support=0.0, Confidence=0.44)
+
+Rule#646: {olive oil, burgers} => {mineral water}
+(Support=0.0, Confidence=0.52)
+
+Rule#647: {olive oil, pancakes} => {chocolate}
+(Support=0.0, Confidence=0.31)
+
+Rule#648: {spaghetti, olive oil, pancakes} => {mineral water}
+(Support=0.0, Confidence=0.55)
+
+Rule#649: {mineral water, olive oil, pancakes} => {spaghetti}
+(Support=0.0, Confidence=0.6)
+
+Rule#650: {spaghetti, frozen vegetables, olive oil} => {ground beef}
+(Support=0.0, Confidence=0.37)
+
+Rule#651: {spaghetti, olive oil, ground beef} => {frozen vegetables}
+(Support=0.0, Confidence=0.35)
+
+Rule#652: {frozen vegetables, olive oil, ground beef} => {spaghetti}
+(Support=0.0, Confidence=0.64)
+
+Rule#653: {spaghetti, frozen vegetables, olive oil} => {milk}
+(Support=0.0, Confidence=0.37)
+
+Rule#654: {frozen vegetables, milk, olive oil} => {spaghetti}
+(Support=0.0, Confidence=0.44)
+
+Rule#655: {frozen vegetables, mineral water, milk} => {olive oil}
+(Support=0.0, Confidence=0.3)
+
+Rule#656: {frozen vegetables, mineral water, olive oil} => {milk}
+(Support=0.0, Confidence=0.51)
+
+Rule#657: {frozen vegetables, milk, olive oil} => {mineral water}
+(Support=0.0, Confidence=0.69)
+
+Rule#658: {mineral water, milk, olive oil} => {frozen vegetables}
+(Support=0.0, Confidence=0.39)
+
+Rule#659: {spaghetti, frozen vegetables, olive oil} => {chocolate}
+(Support=0.0, Confidence=0.37)
+
+Rule#660: {spaghetti, olive oil, chocolate} => {frozen vegetables}
+(Support=0.0, Confidence=0.3)
+
+Rule#661: {frozen vegetables, olive oil, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.53)
+
+Rule#662: {frozen vegetables, mineral water, olive oil} => {chocolate}
+(Support=0.0, Confidence=0.43)
+
+Rule#663: {frozen vegetables, olive oil, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.7)
+
+Rule#664: {mineral water, olive oil, chocolate} => {frozen vegetables}
+(Support=0.0, Confidence=0.34)
+
+Rule#665: {spaghetti, frozen vegetables, olive oil} => {mineral water}
+(Support=0.0, Confidence=0.49)
+
+Rule#666: {frozen vegetables, mineral water, olive oil} => {spaghetti}
+(Support=0.0, Confidence=0.43)
+
+Rule#667: {spaghetti, olive oil, ground beef} => {milk}
+(Support=0.0, Confidence=0.35)
+
+Rule#668: {milk, olive oil, ground beef} => {spaghetti}
+(Support=0.0, Confidence=0.43)
+
+Rule#669: {mineral water, olive oil, ground beef} => {milk}
+(Support=0.0, Confidence=0.34)
+
+Rule#670: {milk, olive oil, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.46)
+
+Rule#671: {spaghetti, olive oil, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.5)
+
+Rule#672: {mineral water, olive oil, ground beef} => {spaghetti}
+(Support=0.0, Confidence=0.46)
+
+Rule#673: {spaghetti, milk, olive oil} => {chocolate}
+(Support=0.0, Confidence=0.31)
+
+Rule#674: {spaghetti, olive oil, chocolate} => {milk}
+(Support=0.0, Confidence=0.32)
+
+Rule#675: {milk, olive oil, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.44)
+
+Rule#676: {mineral water, olive oil, chocolate} => {milk}
+(Support=0.0, Confidence=0.31)
+
+Rule#677: {milk, olive oil, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.49)
+
+Rule#678: {olive oil, french fries} => {milk}
+(Support=0.0, Confidence=0.35)
+
+Rule#679: {spaghetti, mineral water, olive oil} => {milk}
+(Support=0.0, Confidence=0.32)
+
+Rule#680: {spaghetti, milk, olive oil} => {mineral water}
+(Support=0.0, Confidence=0.46)
+
+Rule#681: {mineral water, milk, olive oil} => {spaghetti}
+(Support=0.0, Confidence=0.39)
+
+Rule#682: {eggs, mineral water, olive oil} => {milk}
+(Support=0.0, Confidence=0.45)
+
+Rule#683: {eggs, milk, olive oil} => {mineral water}
+(Support=0.0, Confidence=0.71)
+
+Rule#684: {mineral water, milk, olive oil} => {eggs}
+(Support=0.0, Confidence=0.31)
+
+Rule#685: {spaghetti, green tea, olive oil} => {mineral water}
+(Support=0.0, Confidence=0.53)
+
+Rule#686: {mineral water, green tea, olive oil} => {spaghetti}
+(Support=0.0, Confidence=0.56)
+
+Rule#687: {olive oil, french fries} => {chocolate}
+(Support=0.0, Confidence=0.33)
+
+Rule#688: {spaghetti, mineral water, olive oil} => {chocolate}
+(Support=0.0, Confidence=0.38)
+
+Rule#689: {spaghetti, olive oil, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.55)
+
+Rule#690: {mineral water, olive oil, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.47)
+
+Rule#691: {eggs, mineral water, olive oil} => {chocolate}
+(Support=0.0, Confidence=0.41)
+
+Rule#692: {eggs, olive oil, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.6)
+
+Rule#693: {olive oil, french fries} => {spaghetti}
+(Support=0.0, Confidence=0.38)
+
+Rule#694: {olive oil, french fries} => {mineral water}
+(Support=0.0, Confidence=0.43)
+
+Rule#695: {eggs, spaghetti, olive oil} => {mineral water}
+(Support=0.0, Confidence=0.47)
+
+Rule#696: {eggs, mineral water, olive oil} => {spaghetti}
+(Support=0.0, Confidence=0.41)
+
+Rule#697: {tomatoes, shrimp} => {frozen vegetables}
+(Support=0.0, Confidence=0.36)
+
+Rule#698: {tomatoes, shrimp} => {spaghetti}
+(Support=0.0, Confidence=0.36)
+
+Rule#699: {tomatoes, low fat yogurt} => {mineral water}
+(Support=0.0, Confidence=0.38)
+
+Rule#700: {tomatoes, cake} => {frozen vegetables}
+(Support=0.0, Confidence=0.37)
+
+Rule#701: {tomatoes, cake} => {spaghetti}
+(Support=0.0, Confidence=0.41)
+
+Rule#702: {tomatoes, cake} => {mineral water}
+(Support=0.0, Confidence=0.4)
+
+Rule#703: {tomatoes, burgers} => {milk}
+(Support=0.0, Confidence=0.31)
+
+Rule#704: {tomatoes, burgers} => {french fries}
+(Support=0.0, Confidence=0.31)
+
+Rule#705: {tomatoes, burgers} => {mineral water}
+(Support=0.0, Confidence=0.4)
+
+Rule#706: {tomatoes, pancakes} => {spaghetti}
+(Support=0.0, Confidence=0.34)
+
+Rule#707: {tomatoes, pancakes} => {mineral water}
+(Support=0.0, Confidence=0.47)
+
+Rule#708: {tomatoes, spaghetti, frozen vegetables} => {milk}
+(Support=0.0, Confidence=0.32)
+
+Rule#709: {tomatoes, spaghetti, milk} => {frozen vegetables}
+(Support=0.0, Confidence=0.36)
+
+Rule#710: {tomatoes, frozen vegetables, milk} => {spaghetti}
+(Support=0.0, Confidence=0.52)
+
+Rule#711: {tomatoes, frozen vegetables, mineral water} => {milk}
+(Support=0.0, Confidence=0.39)
+
+Rule#712: {tomatoes, frozen vegetables, milk} => {mineral water}
+(Support=0.0, Confidence=0.55)
+
+Rule#713: {tomatoes, mineral water, milk} => {frozen vegetables}
+(Support=0.0, Confidence=0.35)
+
+Rule#714: {tomatoes, spaghetti, frozen vegetables} => {mineral water}
+(Support=0.0, Confidence=0.46)
+
+Rule#715: {tomatoes, spaghetti, mineral water} => {frozen vegetables}
+(Support=0.0, Confidence=0.33)
+
+Rule#716: {tomatoes, frozen vegetables, mineral water} => {spaghetti}
+(Support=0.0, Confidence=0.52)
+
+Rule#717: {tomatoes, spaghetti, mineral water} => {ground beef}
+(Support=0.0, Confidence=0.33)
+
+Rule#718: {tomatoes, spaghetti, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.55)
+
+Rule#719: {tomatoes, mineral water, ground beef} => {spaghetti}
+(Support=0.0, Confidence=0.56)
+
+Rule#720: {tomatoes, spaghetti, mineral water} => {milk}
+(Support=0.0, Confidence=0.36)
+
+Rule#721: {tomatoes, spaghetti, milk} => {mineral water}
+(Support=0.0, Confidence=0.57)
+
+Rule#722: {tomatoes, mineral water, milk} => {spaghetti}
+(Support=0.0, Confidence=0.51)
+
+Rule#723: {tomatoes, spaghetti, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.51)
+
+Rule#724: {tomatoes, mineral water, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.44)
+
+Rule#725: {tomatoes, french fries} => {spaghetti}
+(Support=0.0, Confidence=0.3)
+
+Rule#726: {tomatoes, french fries} => {mineral water}
+(Support=0.0, Confidence=0.3)
+
+Rule#727: {tomatoes, eggs} => {mineral water}
 (Support=0.01, Confidence=0.41)
 
-Rule#52: {spaghetti, french fries} => {mineral water}
+Rule#728: {shrimp, low fat yogurt} => {chocolate}
+(Support=0.0, Confidence=0.34)
+
+Rule#729: {shrimp, low fat yogurt} => {spaghetti}
+(Support=0.0, Confidence=0.36)
+
+Rule#730: {shrimp, escalope} => {chocolate}
+(Support=0.0, Confidence=0.5)
+
+Rule#731: {shrimp, cake} => {eggs}
+(Support=0.0, Confidence=0.35)
+
+Rule#732: {shrimp, cake} => {mineral water}
+(Support=0.0, Confidence=0.39)
+
+Rule#733: {shrimp, burgers} => {milk}
+(Support=0.0, Confidence=0.33)
+
+Rule#734: {shrimp, burgers} => {chocolate}
+(Support=0.0, Confidence=0.35)
+
+Rule#735: {shrimp, burgers} => {spaghetti}
+(Support=0.0, Confidence=0.32)
+
+Rule#736: {shrimp, burgers} => {mineral water}
+(Support=0.0, Confidence=0.38)
+
+Rule#737: {shrimp, pancakes} => {milk}
+(Support=0.0, Confidence=0.32)
+
+Rule#738: {shrimp, pancakes} => {spaghetti}
+(Support=0.0, Confidence=0.35)
+
+Rule#739: {shrimp, pancakes} => {mineral water}
+(Support=0.0, Confidence=0.43)
+
+Rule#740: {shrimp, spaghetti, frozen vegetables} => {ground beef}
+(Support=0.0, Confidence=0.4)
+
+Rule#741: {shrimp, spaghetti, ground beef} => {frozen vegetables}
+(Support=0.0, Confidence=0.4)
+
+Rule#742: {shrimp, frozen vegetables, ground beef} => {spaghetti}
+(Support=0.0, Confidence=0.75)
+
+Rule#743: {shrimp, frozen vegetables, milk} => {chocolate}
+(Support=0.0, Confidence=0.46)
+
+Rule#744: {shrimp, frozen vegetables, chocolate} => {milk}
+(Support=0.0, Confidence=0.4)
+
+Rule#745: {shrimp, milk, chocolate} => {frozen vegetables}
+(Support=0.0, Confidence=0.39)
+
+Rule#746: {shrimp, frozen vegetables, mineral water} => {milk}
+(Support=0.0, Confidence=0.39)
+
+Rule#747: {shrimp, frozen vegetables, milk} => {mineral water}
+(Support=0.0, Confidence=0.6)
+
+Rule#748: {shrimp, mineral water, milk} => {frozen vegetables}
+(Support=0.0, Confidence=0.36)
+
+Rule#749: {shrimp, frozen vegetables, mineral water} => {chocolate}
+(Support=0.0, Confidence=0.44)
+
+Rule#750: {shrimp, frozen vegetables, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.6)
+
+Rule#751: {shrimp, mineral water, chocolate} => {frozen vegetables}
+(Support=0.0, Confidence=0.42)
+
+Rule#752: {frozen vegetables, mineral water, chocolate} => {shrimp}
+(Support=0.0, Confidence=0.33)
+
+Rule#753: {shrimp, spaghetti, frozen vegetables} => {mineral water}
+(Support=0.0, Confidence=0.56)
+
+Rule#754: {shrimp, spaghetti, mineral water} => {frozen vegetables}
+(Support=0.0, Confidence=0.39)
+
+Rule#755: {shrimp, frozen vegetables, mineral water} => {spaghetti}
+(Support=0.0, Confidence=0.46)
+
+Rule#756: {shrimp, ground beef} => {chocolate}
+(Support=0.0, Confidence=0.3)
+
+Rule#757: {shrimp, spaghetti, mineral water} => {ground beef}
+(Support=0.0, Confidence=0.34)
+
+Rule#758: {shrimp, spaghetti, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.49)
+
+Rule#759: {shrimp, mineral water, ground beef} => {spaghetti}
+(Support=0.0, Confidence=0.58)
+
+Rule#760: {shrimp, mineral water, milk} => {chocolate}
+(Support=0.0, Confidence=0.37)
+
+Rule#761: {shrimp, mineral water, chocolate} => {milk}
+(Support=0.0, Confidence=0.39)
+
+Rule#762: {shrimp, milk, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.54)
+
+Rule#763: {shrimp, french fries} => {milk}
+(Support=0.0, Confidence=0.39)
+
+Rule#764: {shrimp, spaghetti, mineral water} => {milk}
+(Support=0.0, Confidence=0.36)
+
+Rule#765: {shrimp, spaghetti, milk} => {mineral water}
+(Support=0.0, Confidence=0.62)
+
+Rule#766: {shrimp, mineral water, milk} => {spaghetti}
+(Support=0.0, Confidence=0.39)
+
+Rule#767: {eggs, shrimp} => {milk}
+(Support=0.0, Confidence=0.3)
+
+Rule#768: {shrimp, french fries} => {chocolate}
+(Support=0.0, Confidence=0.33)
+
+Rule#769: {shrimp, spaghetti, mineral water} => {chocolate}
+(Support=0.0, Confidence=0.41)
+
+Rule#770: {shrimp, spaghetti, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.54)
+
+Rule#771: {shrimp, mineral water, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.46)
+
+Rule#772: {eggs, shrimp} => {mineral water}
 (Support=0.01, Confidence=0.37)
 
-Rule#53: {mineral water, french fries} => {spaghetti}
-(Support=0.01, Confidence=0.3)
+Rule#773: {cake, low fat yogurt} => {mineral water}
+(Support=0.0, Confidence=0.42)
 
-Rule#54: {eggs, spaghetti} => {mineral water}
+Rule#774: {low fat yogurt, burgers} => {spaghetti}
+(Support=0.0, Confidence=0.4)
+
+Rule#775: {low fat yogurt, burgers} => {eggs}
+(Support=0.0, Confidence=0.32)
+
+Rule#776: {low fat yogurt, burgers} => {mineral water}
+(Support=0.0, Confidence=0.38)
+
+Rule#777: {low fat yogurt, pancakes} => {spaghetti}
+(Support=0.0, Confidence=0.35)
+
+Rule#778: {low fat yogurt, pancakes} => {mineral water}
+(Support=0.0, Confidence=0.45)
+
+Rule#779: {frozen vegetables, low fat yogurt} => {milk}
+(Support=0.0, Confidence=0.37)
+
+Rule#780: {frozen vegetables, low fat yogurt} => {eggs}
+(Support=0.0, Confidence=0.32)
+
+Rule#781: {frozen vegetables, low fat yogurt} => {mineral water}
+(Support=0.0, Confidence=0.45)
+
+Rule#782: {low fat yogurt, ground beef} => {milk}
+(Support=0.0, Confidence=0.32)
+
+Rule#783: {low fat yogurt, ground beef} => {spaghetti}
+(Support=0.0, Confidence=0.42)
+
+Rule#784: {low fat yogurt, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.5)
+
+Rule#785: {milk, low fat yogurt} => {spaghetti}
+(Support=0.0, Confidence=0.33)
+
+Rule#786: {milk, low fat yogurt} => {mineral water}
+(Support=0.0, Confidence=0.36)
+
+Rule#787: {low fat yogurt, french fries} => {chocolate}
+(Support=0.0, Confidence=0.3)
+
+Rule#788: {low fat yogurt, chocolate} => {mineral water}
 (Support=0.01, Confidence=0.39)
 
-Total rules generated: 54
+Rule#789: {spaghetti, low fat yogurt} => {mineral water}
+(Support=0.01, Confidence=0.37)
+
+Rule#790: {eggs, low fat yogurt} => {mineral water}
+(Support=0.01, Confidence=0.37)
+
+Rule#791: {escalope, burgers} => {mineral water}
+(Support=0.0, Confidence=0.32)
+
+Rule#792: {escalope, pancakes} => {chocolate}
+(Support=0.0, Confidence=0.43)
+
+Rule#793: {escalope, pancakes} => {spaghetti}
+(Support=0.0, Confidence=0.45)
+
+Rule#794: {escalope, pancakes} => {mineral water}
+(Support=0.0, Confidence=0.48)
+
+Rule#795: {frozen vegetables, escalope} => {chocolate}
+(Support=0.0, Confidence=0.33)
+
+Rule#796: {frozen vegetables, escalope} => {french fries}
+(Support=0.0, Confidence=0.35)
+
+Rule#797: {frozen vegetables, escalope} => {spaghetti}
+(Support=0.0, Confidence=0.33)
+
+Rule#798: {escalope, ground beef} => {chocolate}
+(Support=0.0, Confidence=0.34)
+
+Rule#799: {escalope, ground beef} => {spaghetti}
+(Support=0.0, Confidence=0.4)
+
+Rule#800: {escalope, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.34)
+
+Rule#801: {escalope, milk} => {chocolate}
+(Support=0.0, Confidence=0.4)
+
+Rule#802: {escalope, milk} => {mineral water}
+(Support=0.0, Confidence=0.52)
+
+Rule#803: {escalope, green tea} => {chocolate}
+(Support=0.0, Confidence=0.31)
+
+Rule#804: {escalope, french fries} => {chocolate}
+(Support=0.01, Confidence=0.32)
+
+Rule#805: {spaghetti, escalope} => {chocolate}
+(Support=0.0, Confidence=0.31)
+
+Rule#806: {eggs, escalope} => {chocolate}
+(Support=0.0, Confidence=0.3)
+
+Rule#807: {mineral water, escalope} => {chocolate}
+(Support=0.01, Confidence=0.33)
+
+Rule#808: {escalope, chocolate} => {mineral water}
+(Support=0.01, Confidence=0.32)
+
+Rule#809: {spaghetti, escalope} => {mineral water}
+(Support=0.0, Confidence=0.34)
+
+Rule#810: {cookies, burgers} => {green tea}
+(Support=0.0, Confidence=0.48)
+
+Rule#811: {cookies, burgers} => {french fries}
+(Support=0.0, Confidence=0.43)
+
+Rule#812: {cookies, burgers} => {eggs}
+(Support=0.0, Confidence=0.48)
+
+Rule#813: {ground beef, cookies} => {spaghetti}
+(Support=0.0, Confidence=0.48)
+
+Rule#814: {green tea, cookies} => {french fries}
+(Support=0.0, Confidence=0.39)
+
+Rule#815: {cookies, french fries} => {green tea}
+(Support=0.0, Confidence=0.35)
+
+Rule#816: {cookies, french fries} => {chocolate}
+(Support=0.0, Confidence=0.3)
+
+Rule#817: {cookies, chocolate} => {french fries}
+(Support=0.0, Confidence=0.38)
+
+Rule#818: {spaghetti, cookies} => {chocolate}
+(Support=0.0, Confidence=0.38)
+
+Rule#819: {mineral water, cookies} => {french fries}
+(Support=0.0, Confidence=0.34)
+
+Rule#820: {cake, burgers} => {milk}
+(Support=0.0, Confidence=0.33)
+
+Rule#821: {cake, burgers} => {eggs}
+(Support=0.0, Confidence=0.3)
+
+Rule#822: {cake, burgers} => {mineral water}
+(Support=0.0, Confidence=0.42)
+
+Rule#823: {cake, pancakes} => {spaghetti}
+(Support=0.0, Confidence=0.35)
+
+Rule#824: {cake, pancakes} => {mineral water}
+(Support=0.0, Confidence=0.35)
+
+Rule#825: {cake, frozen vegetables} => {spaghetti}
+(Support=0.0, Confidence=0.32)
+
+Rule#826: {cake, frozen vegetables} => {mineral water}
+(Support=0.0, Confidence=0.47)
+
+Rule#827: {cake, ground beef} => {spaghetti}
+(Support=0.0, Confidence=0.46)
+
+Rule#828: {cake, ground beef} => {eggs}
+(Support=0.0, Confidence=0.31)
+
+Rule#829: {cake, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.43)
+
+Rule#830: {spaghetti, cake, mineral water} => {milk}
+(Support=0.0, Confidence=0.34)
+
+Rule#831: {spaghetti, cake, milk} => {mineral water}
+(Support=0.0, Confidence=0.58)
+
+Rule#832: {cake, mineral water, milk} => {spaghetti}
+(Support=0.0, Confidence=0.38)
+
+Rule#833: {eggs, cake, milk} => {mineral water}
+(Support=0.0, Confidence=0.52)
+
+Rule#834: {cake, mineral water, milk} => {eggs}
+(Support=0.0, Confidence=0.33)
+
+Rule#835: {cake, green tea} => {french fries}
+(Support=0.0, Confidence=0.31)
+
+Rule#836: {cake, mineral water, french fries} => {chocolate}
+(Support=0.0, Confidence=0.33)
+
+Rule#837: {cake, mineral water, chocolate} => {french fries}
+(Support=0.0, Confidence=0.38)
+
+Rule#838: {cake, french fries, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.62)
+
+Rule#839: {spaghetti, cake, mineral water} => {chocolate}
+(Support=0.0, Confidence=0.3)
+
+Rule#840: {spaghetti, cake, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.41)
+
+Rule#841: {cake, mineral water, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.38)
+
+Rule#842: {eggs, cake, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.5)
+
+Rule#843: {cake, mineral water, chocolate} => {eggs}
+(Support=0.0, Confidence=0.38)
+
+Rule#844: {pancakes, burgers} => {french fries}
+(Support=0.0, Confidence=0.3)
+
+Rule#845: {pancakes, burgers} => {spaghetti}
+(Support=0.0, Confidence=0.42)
+
+Rule#846: {pancakes, burgers} => {eggs}
+(Support=0.0, Confidence=0.39)
+
+Rule#847: {pancakes, burgers} => {mineral water}
+(Support=0.0, Confidence=0.35)
+
+Rule#848: {frozen vegetables, burgers} => {chocolate}
+(Support=0.0, Confidence=0.32)
+
+Rule#849: {frozen vegetables, burgers} => {spaghetti}
+(Support=0.0, Confidence=0.34)
+
+Rule#850: {frozen vegetables, burgers} => {mineral water}
+(Support=0.0, Confidence=0.47)
+
+Rule#851: {ground beef, burgers} => {milk}
+(Support=0.0, Confidence=0.34)
+
+Rule#852: {spaghetti, mineral water, burgers} => {ground beef}
+(Support=0.0, Confidence=0.37)
+
+Rule#853: {spaghetti, ground beef, burgers} => {mineral water}
+(Support=0.0, Confidence=0.44)
+
+Rule#854: {mineral water, ground beef, burgers} => {spaghetti}
+(Support=0.0, Confidence=0.45)
+
+Rule#855: {ground beef, burgers} => {eggs}
+(Support=0.0, Confidence=0.33)
+
+Rule#856: {milk, burgers, french fries} => {chocolate}
+(Support=0.0, Confidence=0.38)
+
+Rule#857: {milk, burgers, chocolate} => {french fries}
+(Support=0.0, Confidence=0.39)
+
+Rule#858: {burgers, french fries, chocolate} => {milk}
+(Support=0.0, Confidence=0.44)
+
+Rule#859: {spaghetti, milk, burgers} => {chocolate}
+(Support=0.0, Confidence=0.46)
+
+Rule#860: {spaghetti, burgers, chocolate} => {milk}
+(Support=0.0, Confidence=0.46)
+
+Rule#861: {milk, burgers, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.54)
+
+Rule#862: {spaghetti, milk, burgers} => {french fries}
+(Support=0.0, Confidence=0.33)
+
+Rule#863: {spaghetti, milk, french fries} => {burgers}
+(Support=0.0, Confidence=0.33)
+
+Rule#864: {spaghetti, burgers, french fries} => {milk}
+(Support=0.0, Confidence=0.38)
+
+Rule#865: {milk, burgers, french fries} => {spaghetti}
+(Support=0.0, Confidence=0.38)
+
+Rule#866: {spaghetti, mineral water, burgers} => {milk}
+(Support=0.0, Confidence=0.33)
+
+Rule#867: {spaghetti, milk, burgers} => {mineral water}
+(Support=0.0, Confidence=0.33)
+
+Rule#868: {mineral water, milk, burgers} => {spaghetti}
+(Support=0.0, Confidence=0.31)
+
+Rule#869: {eggs, milk, burgers} => {mineral water}
+(Support=0.0, Confidence=0.43)
+
+Rule#870: {mineral water, milk, burgers} => {eggs}
+(Support=0.0, Confidence=0.33)
+
+Rule#871: {eggs, green tea, burgers} => {french fries}
+(Support=0.0, Confidence=0.36)
+
+Rule#872: {eggs, green tea, french fries} => {burgers}
+(Support=0.0, Confidence=0.3)
+
+Rule#873: {green tea, burgers, french fries} => {eggs}
+(Support=0.0, Confidence=0.39)
+
+Rule#874: {spaghetti, burgers, french fries} => {chocolate}
+(Support=0.0, Confidence=0.38)
+
+Rule#875: {spaghetti, burgers, chocolate} => {french fries}
+(Support=0.0, Confidence=0.33)
+
+Rule#876: {burgers, french fries, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.44)
+
+Rule#877: {eggs, spaghetti, burgers} => {chocolate}
+(Support=0.0, Confidence=0.37)
+
+Rule#878: {eggs, burgers, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.49)
+
+Rule#879: {spaghetti, burgers, chocolate} => {eggs}
+(Support=0.0, Confidence=0.42)
+
+Rule#880: {burgers, chocolate} => {mineral water}
+(Support=0.01, Confidence=0.34)
+
+Rule#881: {eggs, spaghetti, burgers} => {french fries}
+(Support=0.0, Confidence=0.31)
+
+Rule#882: {spaghetti, burgers, french fries} => {eggs}
+(Support=0.0, Confidence=0.4)
+
+Rule#883: {spaghetti, frozen vegetables, pancakes} => {mineral water}
+(Support=0.0, Confidence=0.55)
+
+Rule#884: {frozen vegetables, mineral water, pancakes} => {spaghetti}
+(Support=0.0, Confidence=0.39)
+
+Rule#885: {pancakes, ground beef, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.57)
+
+Rule#886: {spaghetti, pancakes, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.48)
+
+Rule#887: {mineral water, pancakes, ground beef} => {spaghetti}
+(Support=0.0, Confidence=0.41)
+
+Rule#888: {mineral water, milk, pancakes} => {chocolate}
+(Support=0.0, Confidence=0.32)
+
+Rule#889: {milk, pancakes, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.53)
+
+Rule#890: {spaghetti, milk, pancakes} => {mineral water}
+(Support=0.0, Confidence=0.49)
+
+Rule#891: {mineral water, milk, pancakes} => {spaghetti}
+(Support=0.0, Confidence=0.31)
+
+Rule#892: {eggs, milk, pancakes} => {mineral water}
+(Support=0.0, Confidence=0.46)
+
+Rule#893: {mineral water, green tea, pancakes} => {chocolate}
+(Support=0.0, Confidence=0.37)
+
+Rule#894: {mineral water, green tea, chocolate} => {pancakes}
+(Support=0.0, Confidence=0.31)
+
+Rule#895: {green tea, pancakes, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.5)
+
+Rule#896: {green tea, pancakes} => {spaghetti}
+(Support=0.0, Confidence=0.3)
+
+Rule#897: {eggs, pancakes, french fries} => {chocolate}
+(Support=0.0, Confidence=0.44)
+
+Rule#898: {eggs, pancakes, chocolate} => {french fries}
+(Support=0.0, Confidence=0.38)
+
+Rule#899: {pancakes, french fries, chocolate} => {eggs}
+(Support=0.0, Confidence=0.39)
+
+Rule#900: {mineral water, pancakes, french fries} => {chocolate}
+(Support=0.0, Confidence=0.33)
+
+Rule#901: {pancakes, french fries, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.39)
+
+Rule#902: {eggs, spaghetti, pancakes} => {chocolate}
+(Support=0.0, Confidence=0.38)
+
+Rule#903: {eggs, pancakes, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.45)
+
+Rule#904: {spaghetti, pancakes, chocolate} => {eggs}
+(Support=0.0, Confidence=0.37)
+
+Rule#905: {spaghetti, mineral water, pancakes} => {chocolate}
+(Support=0.0, Confidence=0.33)
+
+Rule#906: {spaghetti, pancakes, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.55)
+
+Rule#907: {mineral water, pancakes, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.4)
+
+Rule#908: {eggs, pancakes, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.4)
+
+Rule#909: {spaghetti, pancakes, french fries} => {mineral water}
+(Support=0.0, Confidence=0.44)
+
+Rule#910: {mineral water, pancakes, french fries} => {spaghetti}
+(Support=0.0, Confidence=0.39)
+
+Rule#911: {eggs, spaghetti, pancakes} => {mineral water}
+(Support=0.0, Confidence=0.36)
+
+Rule#912: {eggs, mineral water, pancakes} => {spaghetti}
+(Support=0.0, Confidence=0.31)
+
+Rule#913: {frozen vegetables, milk, ground beef} => {chocolate}
+(Support=0.0, Confidence=0.47)
+
+Rule#914: {frozen vegetables, milk, chocolate} => {ground beef}
+(Support=0.0, Confidence=0.33)
+
+Rule#915: {frozen vegetables, ground beef, chocolate} => {milk}
+(Support=0.0, Confidence=0.47)
+
+Rule#916: {milk, ground beef, chocolate} => {frozen vegetables}
+(Support=0.0, Confidence=0.43)
+
+Rule#917: {spaghetti, frozen vegetables, milk} => {ground beef}
+(Support=0.0, Confidence=0.37)
+
+Rule#918: {spaghetti, frozen vegetables, ground beef} => {milk}
+(Support=0.0, Confidence=0.35)
+
+Rule#919: {spaghetti, milk, ground beef} => {frozen vegetables}
+(Support=0.0, Confidence=0.32)
+
+Rule#920: {frozen vegetables, milk, ground beef} => {spaghetti}
+(Support=0.0, Confidence=0.53)
+
+Rule#921: {eggs, frozen vegetables, ground beef} => {milk}
+(Support=0.0, Confidence=0.48)
+
+Rule#922: {eggs, milk, ground beef} => {frozen vegetables}
+(Support=0.0, Confidence=0.36)
+
+Rule#923: {frozen vegetables, milk, ground beef} => {eggs}
+(Support=0.0, Confidence=0.37)
+
+Rule#924: {frozen vegetables, mineral water, milk} => {ground beef}
+(Support=0.0, Confidence=0.34)
+
+Rule#925: {frozen vegetables, mineral water, ground beef} => {milk}
+(Support=0.0, Confidence=0.41)
+
+Rule#926: {frozen vegetables, milk, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.65)
+
+Rule#927: {mineral water, milk, ground beef} => {frozen vegetables}
+(Support=0.0, Confidence=0.34)
+
+Rule#928: {spaghetti, frozen vegetables, ground beef} => {chocolate}
+(Support=0.0, Confidence=0.35)
+
+Rule#929: {spaghetti, frozen vegetables, chocolate} => {ground beef}
+(Support=0.0, Confidence=0.39)
+
+Rule#930: {spaghetti, ground beef, chocolate} => {frozen vegetables}
+(Support=0.0, Confidence=0.33)
+
+Rule#931: {frozen vegetables, ground beef, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.53)
+
+Rule#932: {frozen vegetables, mineral water, ground beef} => {chocolate}
+(Support=0.0, Confidence=0.36)
+
+Rule#933: {frozen vegetables, mineral water, chocolate} => {ground beef}
+(Support=0.0, Confidence=0.34)
+
+Rule#934: {frozen vegetables, ground beef, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.58)
+
+Rule#935: {mineral water, ground beef, chocolate} => {frozen vegetables}
+(Support=0.0, Confidence=0.3)
+
+Rule#936: {eggs, spaghetti, frozen vegetables} => {ground beef}
+(Support=0.0, Confidence=0.42)
+
+Rule#937: {eggs, frozen vegetables, ground beef} => {spaghetti}
+(Support=0.0, Confidence=0.55)
+
+Rule#938: {spaghetti, frozen vegetables, mineral water} => {ground beef}
+(Support=0.0, Confidence=0.37)
+
+Rule#939: {spaghetti, frozen vegetables, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.51)
+
+Rule#940: {frozen vegetables, mineral water, ground beef} => {spaghetti}
+(Support=0.0, Confidence=0.48)
+
+Rule#941: {eggs, frozen vegetables, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.61)
+
+Rule#942: {frozen vegetables, milk, french fries} => {chocolate}
+(Support=0.0, Confidence=0.37)
+
+Rule#943: {frozen vegetables, french fries, chocolate} => {milk}
+(Support=0.0, Confidence=0.38)
+
+Rule#944: {spaghetti, frozen vegetables, milk} => {chocolate}
+(Support=0.0, Confidence=0.42)
+
+Rule#945: {spaghetti, frozen vegetables, chocolate} => {milk}
+(Support=0.0, Confidence=0.44)
+
+Rule#946: {spaghetti, milk, chocolate} => {frozen vegetables}
+(Support=0.0, Confidence=0.32)
+
+Rule#947: {frozen vegetables, milk, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.43)
+
+Rule#948: {eggs, frozen vegetables, milk} => {chocolate}
+(Support=0.0, Confidence=0.31)
+
+Rule#949: {eggs, frozen vegetables, chocolate} => {milk}
+(Support=0.0, Confidence=0.4)
+
+Rule#950: {frozen vegetables, mineral water, milk} => {chocolate}
+(Support=0.0, Confidence=0.36)
+
+Rule#951: {frozen vegetables, mineral water, chocolate} => {milk}
+(Support=0.0, Confidence=0.41)
+
+Rule#952: {frozen vegetables, milk, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.5)
+
+Rule#953: {eggs, frozen vegetables, milk} => {french fries}
+(Support=0.0, Confidence=0.31)
+
+Rule#954: {eggs, frozen vegetables, french fries} => {milk}
+(Support=0.0, Confidence=0.44)
+
+Rule#955: {eggs, milk, french fries} => {frozen vegetables}
+(Support=0.0, Confidence=0.31)
+
+Rule#956: {frozen vegetables, milk, french fries} => {eggs}
+(Support=0.0, Confidence=0.4)
+
+Rule#957: {frozen vegetables, mineral water, french fries} => {milk}
+(Support=0.0, Confidence=0.39)
+
+Rule#958: {frozen vegetables, milk, french fries} => {mineral water}
+(Support=0.0, Confidence=0.42)
+
+Rule#959: {eggs, spaghetti, frozen vegetables} => {milk}
+(Support=0.0, Confidence=0.47)
+
+Rule#960: {eggs, frozen vegetables, milk} => {spaghetti}
+(Support=0.0, Confidence=0.36)
+
+Rule#961: {spaghetti, frozen vegetables, milk} => {eggs}
+(Support=0.0, Confidence=0.32)
+
+Rule#962: {spaghetti, frozen vegetables, mineral water} => {milk}
+(Support=0.0, Confidence=0.38)
+
+Rule#963: {spaghetti, frozen vegetables, milk} => {mineral water}
+(Support=0.0, Confidence=0.55)
+
+Rule#964: {frozen vegetables, mineral water, milk} => {spaghetti}
+(Support=0.0, Confidence=0.41)
+
+Rule#965: {eggs, frozen vegetables, mineral water} => {milk}
+(Support=0.0, Confidence=0.41)
+
+Rule#966: {eggs, frozen vegetables, milk} => {mineral water}
+(Support=0.0, Confidence=0.51)
+
+Rule#967: {frozen vegetables, mineral water, milk} => {eggs}
+(Support=0.0, Confidence=0.34)
+
+Rule#968: {frozen vegetables, green tea} => {mineral water}
+(Support=0.0, Confidence=0.31)
+
+Rule#969: {spaghetti, frozen vegetables, mineral water} => {chocolate}
+(Support=0.0, Confidence=0.34)
+
+Rule#970: {spaghetti, frozen vegetables, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.53)
+
+Rule#971: {frozen vegetables, mineral water, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.42)
+
+Rule#972: {eggs, frozen vegetables, mineral water} => {chocolate}
+(Support=0.0, Confidence=0.34)
+
+Rule#973: {eggs, frozen vegetables, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.53)
+
+Rule#974: {frozen vegetables, mineral water, chocolate} => {eggs}
+(Support=0.0, Confidence=0.32)
+
+Rule#975: {spaghetti, frozen vegetables, french fries} => {mineral water}
+(Support=0.0, Confidence=0.4)
+
+Rule#976: {frozen vegetables, mineral water, french fries} => {spaghetti}
+(Support=0.0, Confidence=0.35)
+
+Rule#977: {eggs, spaghetti, frozen vegetables} => {mineral water}
+(Support=0.0, Confidence=0.51)
+
+Rule#978: {eggs, frozen vegetables, mineral water} => {spaghetti}
+(Support=0.0, Confidence=0.32)
+
+Rule#979: {spaghetti, milk, ground beef} => {chocolate}
+(Support=0.0, Confidence=0.3)
+
+Rule#980: {spaghetti, ground beef, chocolate} => {milk}
+(Support=0.0, Confidence=0.32)
+
+Rule#981: {milk, ground beef, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.48)
+
+Rule#982: {mineral water, milk, ground beef} => {chocolate}
+(Support=0.0, Confidence=0.3)
+
+Rule#983: {mineral water, ground beef, chocolate} => {milk}
+(Support=0.0, Confidence=0.3)
+
+Rule#984: {milk, ground beef, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.54)
+
+Rule#985: {eggs, spaghetti, milk} => {ground beef}
+(Support=0.0, Confidence=0.33)
+
+Rule#986: {eggs, spaghetti, ground beef} => {milk}
+(Support=0.0, Confidence=0.33)
+
+Rule#987: {eggs, milk, ground beef} => {spaghetti}
+(Support=0.0, Confidence=0.5)
+
+Rule#988: {spaghetti, milk, ground beef} => {eggs}
+(Support=0.0, Confidence=0.3)
+
+Rule#989: {spaghetti, milk, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.45)
+
+Rule#990: {mineral water, milk, ground beef} => {spaghetti}
+(Support=0.0, Confidence=0.4)
+
+Rule#991: {eggs, mineral water, ground beef} => {milk}
+(Support=0.0, Confidence=0.33)
+
+Rule#992: {eggs, milk, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.57)
+
+Rule#993: {mineral water, milk, ground beef} => {eggs}
+(Support=0.0, Confidence=0.3)
+
+Rule#994: {spaghetti, green tea, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.35)
+
+Rule#995: {mineral water, green tea, ground beef} => {spaghetti}
+(Support=0.0, Confidence=0.44)
+
+Rule#996: {eggs, spaghetti, ground beef} => {chocolate}
+(Support=0.0, Confidence=0.34)
+
+Rule#997: {eggs, ground beef, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.47)
+
+Rule#998: {spaghetti, ground beef, chocolate} => {eggs}
+(Support=0.0, Confidence=0.33)
+
+Rule#999: {spaghetti, ground beef, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.43)
+
+Rule#1000: {mineral water, ground beef, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.37)
+
+Rule#1001: {eggs, mineral water, ground beef} => {chocolate}
+(Support=0.0, Confidence=0.39)
+
+Rule#1002: {eggs, ground beef, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.61)
+
+Rule#1003: {mineral water, ground beef, chocolate} => {eggs}
+(Support=0.0, Confidence=0.37)
+
+Rule#1004: {spaghetti, ground beef, french fries} => {mineral water}
+(Support=0.0, Confidence=0.5)
+
+Rule#1005: {mineral water, ground beef, french fries} => {spaghetti}
+(Support=0.0, Confidence=0.53)
+
+Rule#1006: {eggs, spaghetti, ground beef} => {mineral water}
+(Support=0.0, Confidence=0.43)
+
+Rule#1007: {eggs, mineral water, ground beef} => {spaghetti}
+(Support=0.0, Confidence=0.38)
+
+Rule#1008: {milk, green tea} => {mineral water}
+(Support=0.01, Confidence=0.33)
+
+Rule#1009: {eggs, milk, french fries} => {chocolate}
+(Support=0.0, Confidence=0.37)
+
+Rule#1010: {eggs, french fries, chocolate} => {milk}
+(Support=0.0, Confidence=0.32)
+
+Rule#1011: {milk, french fries, chocolate} => {eggs}
+(Support=0.0, Confidence=0.36)
+
+Rule#1012: {mineral water, milk, french fries} => {chocolate}
+(Support=0.0, Confidence=0.32)
+
+Rule#1013: {mineral water, french fries, chocolate} => {milk}
+(Support=0.0, Confidence=0.31)
+
+Rule#1014: {milk, french fries, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.36)
+
+Rule#1015: {eggs, spaghetti, milk} => {chocolate}
+(Support=0.0, Confidence=0.33)
+
+Rule#1016: {eggs, milk, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.32)
+
+Rule#1017: {spaghetti, mineral water, milk} => {chocolate}
+(Support=0.0, Confidence=0.31)
+
+Rule#1018: {spaghetti, mineral water, chocolate} => {milk}
+(Support=0.0, Confidence=0.31)
+
+Rule#1019: {spaghetti, milk, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.45)
+
+Rule#1020: {mineral water, milk, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.35)
+
+Rule#1021: {eggs, mineral water, milk} => {chocolate}
+(Support=0.0, Confidence=0.32)
+
+Rule#1022: {eggs, mineral water, chocolate} => {milk}
+(Support=0.0, Confidence=0.31)
+
+Rule#1023: {eggs, milk, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.45)
+
+Rule#1024: {eggs, spaghetti, french fries} => {milk}
+(Support=0.0, Confidence=0.33)
+
+Rule#1025: {eggs, milk, french fries} => {spaghetti}
+(Support=0.0, Confidence=0.37)
+
+Rule#1026: {spaghetti, milk, french fries} => {eggs}
+(Support=0.0, Confidence=0.42)
+
+Rule#1027: {spaghetti, milk, french fries} => {mineral water}
+(Support=0.0, Confidence=0.44)
+
+Rule#1028: {mineral water, milk, french fries} => {spaghetti}
+(Support=0.0, Confidence=0.34)
+
+Rule#1029: {eggs, mineral water, french fries} => {milk}
+(Support=0.0, Confidence=0.31)
+
+Rule#1030: {eggs, spaghetti, mineral water} => {milk}
+(Support=0.0, Confidence=0.31)
+
+Rule#1031: {eggs, spaghetti, milk} => {mineral water}
+(Support=0.0, Confidence=0.49)
+
+Rule#1032: {eggs, mineral water, milk} => {spaghetti}
+(Support=0.0, Confidence=0.34)
+
+Rule#1033: {green tea, chocolate} => {spaghetti}
+(Support=0.01, Confidence=0.3)
+
+Rule#1034: {eggs, spaghetti, french fries} => {chocolate}
+(Support=0.0, Confidence=0.37)
+
+Rule#1035: {eggs, french fries, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.35)
+
+Rule#1036: {spaghetti, french fries, chocolate} => {eggs}
+(Support=0.0, Confidence=0.37)
+
+Rule#1037: {spaghetti, french fries, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.35)
+
+Rule#1038: {mineral water, french fries, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.33)
+
+Rule#1039: {eggs, mineral water, french fries} => {chocolate}
+(Support=0.0, Confidence=0.31)
+
+Rule#1040: {eggs, spaghetti, mineral water} => {chocolate}
+(Support=0.0, Confidence=0.32)
+
+Rule#1041: {eggs, spaghetti, chocolate} => {mineral water}
+(Support=0.0, Confidence=0.43)
+
+Rule#1042: {eggs, mineral water, chocolate} => {spaghetti}
+(Support=0.0, Confidence=0.34)
+
+Rule#1043: {eggs, spaghetti, french fries} => {mineral water}
+(Support=0.0, Confidence=0.38)
+
+Rule#1044: {eggs, mineral water, french fries} => {spaghetti}
+(Support=0.0, Confidence=0.44)
+
+Rule#1045: {spaghetti, mineral water, french fries} => {eggs}
+(Support=0.0, Confidence=0.3)
+
+Total rules generated: 1045
