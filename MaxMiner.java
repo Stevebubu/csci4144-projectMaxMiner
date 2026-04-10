@@ -18,11 +18,6 @@ public class MaxMiner {
 
     static Map<Set<String>, Integer> maximalItemsets = new LinkedHashMap<>();
 
-        // counts number of support computations
-        static int supportCheckCount = 0; 
-        //counts number of nodes explored
-        static int nodeCount = 0;
-
     public static void main(String[] args) throws IOException {
 
         // LOAD DATASET
@@ -88,9 +83,7 @@ public class MaxMiner {
         return new ArrayList<>(items);
     }
 
-    public static int getSupport(Set<String> itemset) {
-        //count every support computation
-        supportCheckCount++; 
+    public static int getSupport(Set<String> itemset) { 
 
         int count = 0;
         for (Transaction t : transactions) {
@@ -104,8 +97,6 @@ public class MaxMiner {
     // prefix = h(g)  (the head of the current candidate group)
     // tail   = t(g)  (ordered list of remaining items that may extend the head)
     public static void maxMiner(Set<String> prefix, List<String> tail) {
-        //count each recursive exploration
-        nodeCount++;
 
         // Superset-frequency pruning (Figure 2 / Figure 4)
         // If h ∪ t is frequent, every sub-node would produce a non-maximal itemset,
@@ -209,8 +200,6 @@ public class MaxMiner {
         pw.println("2. Maximal Frequent Itemsets Found: " + maximalItemsets.size());
         pw.println();
         pw.println("Runtime: " + runtimeSeconds + " seconds");
-        pw.println("Support computations: " + supportCheckCount);
-        pw.println("Search nodes explored: " + nodeCount);
         System.out.println("Dataset: Market_Basket_Optimisation.csv");
         pw.println();
         pw.println("3. Rules:");
