@@ -73,7 +73,7 @@ public class MaxMiner {
 
         writeRules(minSupFraction, min_conf, runtimeSeconds);
 
-        System.out.println("Done. Rules written to Rules.txt");
+        System.out.println("Rules written to MaxMiner_Rules.txt");
     }
 
     public static List<String> getAllItems() {
